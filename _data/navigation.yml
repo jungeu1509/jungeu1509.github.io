@@ -6,6 +6,9 @@ main:
     url: /Portfolio/
   - title: "게시판"
     url: /posts/
+  - title: "Category"
+    url: /Category/
+  
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
