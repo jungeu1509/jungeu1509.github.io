@@ -14,3 +14,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+portfolio:
+  - title: Getting Started
+    children:
+      - title: "Structure"
+        url: /portfolio/structure/
+      - title: "Installation"
+        url: /portfolio/installation/
