@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "Eunwoo Jung "
   avatar           : "/assets/images/heart-beat.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Hello** Have a nice day"
-  location         : "South Korea"
+  bio              : "**Hello** Have a *nice* day"
+  location         : "Seoul, South Korea"
   email            : "jungeu1509@gmail.com"
   links:
     - label: "Email"
