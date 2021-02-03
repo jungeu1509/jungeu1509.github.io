@@ -4,8 +4,10 @@ main:
     url: /portfolio/
   - title: "게시판"
     url: /posts/
-  - title: "Category"
-    url: /category/
+  - title: "Categories"
+    url: /categories/
+    - title: "Tags"
+      url: /tags/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/  
   # - title: "Sample Collections"
