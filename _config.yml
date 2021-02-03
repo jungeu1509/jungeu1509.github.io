@@ -20,6 +20,8 @@ title                    : "블로그 공사중"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Eunwoo Jung"
+avatar           : "/assets/images/heart-beat.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+bio              : "**Hello** Have a nice day"
 description              : "Now try to make blog"
 url                      : "https://jungeu1509.github.io" # the base hostname & protocol for your site e.g. 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -99,7 +101,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jungeu1509@gmail.com"
+      #url: "mailto:jungeu1509@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
