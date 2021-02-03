@@ -1,4 +1,16 @@
 var store = [{
+        "title": "Structure",
+        "excerpt":"Nothing clever here :wink:. Layouts, data files, and includes are all placed in their default locations. Stylesheets and scripts in assets, and a few development related files in the project’s root directory. Please note: If you installed Minimal Mistakes via the Ruby Gem method, theme files like _layouts, _includes, _sass,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/portfolio/structure/",
+        "teaser": null
+      },{
+        "title": "Installation",
+        "excerpt":"Install the theme 1. For a new site, install the minimal-mistakes-jekyll gem, remote theme, or fork the Minimal Mistakes repo on GitHub following the steps outlined in the Quick-Start Guide. If you plan to host with GitHub Pages be sure to properly setup jekyll-remote-theme as it is required for the...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/portfolio/installation/",
+        "teaser": null
+      },{
         "title": "Test",
         "excerpt":"테스트 게시물 입니다.   블로그 제작 시작 : 2021-02-01   블로그 테스트 : 2021-02-03  ","categories": ["Uncategorized","Test"],
         "tags": ["test"],
