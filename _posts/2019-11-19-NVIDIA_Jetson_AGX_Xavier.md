@@ -9,7 +9,7 @@ tags:
  - motor
  - module
 case date: 2019-11-19 23:36:00 +0800 
-last_modified_at: 2021-02-04 16:14:00 +0800 
+last_modified_at: 2021-02-04 16:56:00 +0800 
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -183,3 +183,5 @@ sudo i2cdetect -y -r [버스 숫자]
 실행파일을 실행하면 아래와 같이 잘 실행될겁니다!
 
 ![6번그림-실행](https://lh6.googleusercontent.com/fJgtEa8xqoi-aGYB1rpR7N4wMf_-NGlY4Od1VYj-rccVQi6rpoHTYihg5JeFruIsQPbIPUZkHHxIqzbDQsv0zxAY3w3XIx3ZGRlXmj7uTcE18wNEiTv02oZhwYMsC_84prVK7AlG)
+
+{% include video id="sp1ICbyFcVY" provider="youtube" %}
