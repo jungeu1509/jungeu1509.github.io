@@ -51,6 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  
 search                   : "true" # true, false (default)
 search_full_content      : "true" # true, false (default)
 search_provider          : "google" # lunr (default), algolia, google
@@ -295,6 +296,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
