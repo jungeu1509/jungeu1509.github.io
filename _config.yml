@@ -56,15 +56,15 @@ atom_feed:
   
 search                   : "true" # true, false (default)
 search_full_content      : "true" # true, false (default)
-search_provider          : "google" # lunr (default), algolia, google
+search_provider          : "algolia" # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         : 61BR6RP0JM # YOUR_APPLICATION_ID
+  index_name             : github # YOUR_INDEX_NAME
+  search_only_api_key    : 062d587d3a79ee4ca06a80a16ecc7922 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
 google:
-  search_engine_id       : 4a280a16b7db804a9 # YOUR_SEARCH_ENGINE_ID
-  instant_search         : true # false (default), true
+  search_engine_id       : # 4a280a16b7db804a9 # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # true # false (default), true
 
 # SEO Related
 google_site_verification : RCNZi-RpeO7LgiM6pxznnfXun7u5nOVMMO56MTGq6g4
