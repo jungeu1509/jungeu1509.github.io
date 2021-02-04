@@ -49,7 +49,7 @@ PCA9685 모듈을 이용하여 모터를 구동했습니다.
 | number  | usage     |
 | ----------- | ------------|
 | 1                | 3.3 VDC |
-| 6 | GND|
+| 6 | GND |
 | 27 | **I2C_GP2_DAT /** *General I2C #2 Data _ 1.8/3.3V, I2C Bus 1* |
 | 28 | **I2C_GP2_CLK /** *General I2C #2 Clock _ 1.8/3.3V, I2C Bus 1* |
 
@@ -63,7 +63,7 @@ PCA9685 모듈을 이용하여 모터를 구동했습니다.
 
 “왜 이렇게 연결하는가?” 는 I2C 통신을 우선 알고 와야 합니다.
 
-잘 정리되어있는 블로그 강좌를 추천합니다. [몽구스 네이버블로그 Link](https://blog.naver.com/yuyyulee/220323559541)
+잘 정리되어있는 블로그 강좌를 추천합니다. [몽구스 네이버블로그 Link](https://blog.naver.com/yuyyulee/220323559541){: .btn .btn--success}
 
 모듈에 윗부분의 **전원**과 **서보모터**도 연결합니다.
 
