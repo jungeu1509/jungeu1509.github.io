@@ -1,54 +1,50 @@
 ---
-layout: single
-title:  "NVIDIA Jetson AGX Xavier 보드, PCA9685모듈, Jetsonhack 소스를 이용하여 서보모터 사용하기!"
-header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
-categories: 
-  - Jekyll
+
+layout: single 
+title: "NVIDIA Jetson AGX Xavier 보드, PCA9685모듈, Jetsonhack 소스를 이용하여 서보모터 사용하기!"
+header: teaser: "unsplash-gallery-image-2-th.jpg" 
+categories: - Motor 
 tags:
-  - edge case
-date: 2019-11-19 23:36:00 +0800
-last_modified_at: 2021-02-04 14:52:00 +0800
+ - Xavier 
+ - servomotor
+ - Motor
+ - module
+case date: 2019-11-19 23:36:00 +0800 
+last_modified_at: 2021-02-04 14:52:00 +0800 
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
 
-# NVIDIA Jetson AGX Xavier 보드, PCA9685모듈, Jetsonhack 소스를 이용하여 서보모터 사용하기!
-
 nvidia Jetson 보드 중 Xavier 보드를 이용하여 서보모터를 동작 시켰습니다.
 
 PCA9685 모듈을 이용하여 모터를 구동했습니다.
 
-이 글은 다음 순서로 작성되었습니다.
-
-1. [하드웨어 구성]()
-2. [소스코드 수정]()
-3. [I2C통신 설정]()
+---
 
 # 하드웨어 구성
 
-----------------------------------------------------------------------------------------------------
-
-## [PCA9685 정보]
+[PCA9685 정보]
+--------------
 
 PCA9685 : [https://www.adafruit.com/product/815](https://www.adafruit.com/product/815)
 
-(한국어 번역 : [https://www.icbanq.com/P007406152](https://www.icbanq.com/P007406152))
+(한국어 번역 : [https://www.icbanq.com/P007406152](https://www.icbanq.com/P007406152)\)
 
 모듈 데이터시트 : [https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf)
 
 (위 링크로 데이터시트 다운이 안되는 분은 [https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads](https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads) 들어가서 데이터시트를 받으시면 됩니다.)
 
----------------------------------------------------------------------------------------------------------
+---
 
-## [Xavier 정보]
+[Xavier 정보]
+-------------
 
 우선 연결을 위해 Xavier의 핀맵을 확인합니다.
 
 [https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/](https://www.jetsonhacks.com/nvidia-jetson-agx-xavier-gpio-header-pinout/)
 
-(핀 갯수가 많아 전체 핀 맵은 한눈에 안들어오므로 사이트 확인 부탁드립니다 ㅠㅠ)
+(핀 갯수가 많아 이미지 업로드시 전체 핀 맵은 한눈에 안들어오므로 사이트 확인 부탁드립니다)
 
 제가 사용한 핀은 아래와 같습니다.
 
@@ -81,12 +77,13 @@ PCA9685 : [https://www.adafruit.com/product/815](https://www.adafruit.com/produc
 외부 전원은 최대 6V까지 사용할 수 있다고 합니다.
 
 # 소스 수정
+=========
 
 하드웨어 연결이 끝났으니 소스가 필요하겠죠?
 
 [https://github.com/jetsonhacks/JHPWMDriver](https://github.com/jetsonhacks/JHPWMDriver)
 
-이 소스를 사용할 겁니다. 그러나! TX1보드 기준으로 작성되어있으므로 약간의 수정이 필요합니다!(제가 참고한 사이트 : [https://devtalk.nvidia.com/default/topic/1045330/jetson-agx-xavier/i2c-library-not-working-properly/](https://devtalk.nvidia.com/default/topic/1045330/jetson-agx-xavier/i2c-library-not-working-properly/))
+이 소스를 사용할 겁니다. 그러나! TX1보드 기준으로 작성되어있으므로 약간의 수정이 필요합니다!(제가 참고한 사이트 : [https://devtalk.nvidia.com/default/topic/1045330/jetson-agx-xavier/i2c-library-not-working-properly/](https://devtalk.nvidia.com/default/topic/1045330/jetson-agx-xavier/i2c-library-not-working-properly/)\)
 
 그냥 소스를 돌리면 i2c_smbus_read_byte_data’ was not declared in this scope 라는 에러가 뜹니다!
 
@@ -94,11 +91,13 @@ PCA9685 : [https://www.adafruit.com/product/815](https://www.adafruit.com/produc
 
 /JHPWMDriver/src/JHPWMPCA9685.h 파일 28번째 줄에 아래 3줄을 추가해줍니다.
 
+<pre><code>
+
 extern "C" {
-
-#include <i2c/smbus.h>
-
-}
+    
+     #include <i2c/smbus.h>
+     
+}</code></pre>
 
 아래의 사진과 같이 추가를 합니다.
 
@@ -124,13 +123,14 @@ g++ displayExample.cpp ../src/JHPWMPCA9685.cpp -I../src -li2c -o [출력파일�
 
 (위 괄호 두개는 메뉴얼에 있는 공통된 내용이랍니다. github.com/jetsonhacks/JHPWMDriver메뉴얼 읽어보시는걸 추천합니다.)
 
-# I2C통신 설정
+I2C통신 설정
+============
 
 만들기만 하면 완성이냐?!? 아니죠~!
 
 그 후 실행이 또 문제입니다 하핫!
 
-(제가 참고한 사이트 : [https://github.com/jetsonhacks/JHPWMDriver/issues/1](https://github.com/jetsonhacks/JHPWMDriver/issues/1))
+(제가 참고한 사이트 : [https://github.com/jetsonhacks/JHPWMDriver/issues/1](https://github.com/jetsonhacks/JHPWMDriver/issues/1)\)
 
 자비어 핀맵 아래 I2C예제에서 볼 수 있듯 자비어 에서는 1번 과 8번 버스를 사용합니다.
 
