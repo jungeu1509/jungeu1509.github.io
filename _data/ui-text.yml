@@ -97,7 +97,11 @@ ko: &DEFAULT_KO
   comment_form_comment_label : "댓글"
   comment_form_md_info       : "마크다운을 지원합니다."
   comment_form_name_label    : "이름"
+<<<<<<< HEAD
   comment_form_email_label   :
+=======
+  comment_form_email_label   : "이메일"
+>>>>>>> bbc6788d997971b6e6e148742d98a8dcaa939738
   comment_form_website_label : "웹사이트(선택사항)"
   comment_btn_submit         : "댓글 등록"
   comment_btn_submitted      : "등록됨"
