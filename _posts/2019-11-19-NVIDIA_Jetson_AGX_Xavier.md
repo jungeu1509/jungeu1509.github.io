@@ -44,13 +44,14 @@ PCA9685 모듈을 이용하여 모터를 구동했습니다.
 
 제가 사용한 핀은 아래와 같습니다.
 
-1 - 3.3 VDC
+### < 사용핀 목록 >
 
-6 - GND
-
-27 - **I2C_GP2_DAT /** *General I2C #2 Data _ 1.8/3.3V, I2C Bus 1*
-
-28 - **I2C_GP2_CLK /** *General I2C #2 Clock _ 1.8/3.3V, I2C Bus 1*
+| number  | usage     |
+| ----------- | ------------|
+| 1                | 3.3 VDC |
+| 6 | GND|
+| 27 | **I2C_GP2_DAT /** *General I2C #2 Data _ 1.8/3.3V, I2C Bus 1* |
+| 28 | **I2C_GP2_CLK /** *General I2C #2 Clock _ 1.8/3.3V, I2C Bus 1* |
 
 모듈의 VCC와 보드의 1번핀을,
 
@@ -62,15 +63,15 @@ PCA9685 모듈을 이용하여 모터를 구동했습니다.
 
 “왜 이렇게 연결하는가?” 는 I2C 통신을 우선 알고 와야 합니다.
 
-잘 정리되어있는 블로그 강좌를 추천합니다.
+잘 정리되어있는 블로그 강좌를 추천합니다. [몽구스 네이버블로그 Link](https://blog.naver.com/yuyyulee/220323559541)
 
-[yuyyulee 네이버블로그 Link](https://www.blog.naver.com/yuyyulee/220323559541)
-
-모듈에 윗부분의 전원과 서보모터도 연결합니다.
+모듈에 윗부분의 **전원**과 **서보모터**도 연결합니다.
 
 (서보모터는 갈색 선이 GND, 빨간선이 V+, 노란선이 PWM입니다)
 
-외부 전원은 최대 6V까지 사용할 수 있다고 합니다.
+**note:** 외부 전원은 최대 6V까지 사용할 수 있다고 합니다.
+{: .notice--warning}
+---
 
 # 코드 다운 및 수정
 
@@ -96,13 +97,11 @@ PCA9685 모듈을 이용하여 모터를 구동했습니다.
 
 **/JHPWMDriver/src/JHPWMPCA9685.h 파일** 28번째 줄에 아래 3줄을 추가해줍니다.
 
-<pre>
-<code>
+```cpp
     extern "C" {
         #include <i2c/smbus.h>
     }
-</code>
-</pre>
+```
 
 아래의 사진과 같이 추가를 합니다.
 
@@ -116,11 +115,9 @@ i2c 라이브러리가 첨부가 안되어서 그렇다고 합니다.
 
 **/JHPWMDriver/example/Makefile** 파일을 아래과 같이 수정해줍니다.
 
-<pre>
-<code>
+```bash
 g++ displayExample.cpp ../src/JHPWMPCA9685.cpp -I../src -li2c -o [출력파일명]
-</code>
-</pre>
+```
 
 아래와 같이 추가를 합니다.
 
@@ -128,11 +125,13 @@ g++ displayExample.cpp ../src/JHPWMPCA9685.cpp -I../src -li2c -o [출력파일�
 
 이제 make 명령어를 입력하면 소스가 잘 구동이 됩니다!
 
-    (혹시 i2c-tool은 설치하셨죠? 설치 명령어는 오른쪽과 같아요 sudo apt-get install libi2c-dev i2c-tools)
+**Note:** (혹시 i2c-tool은 설치하셨죠? 설치 명령어는 오른쪽과 같아요 sudo apt-get install libi2c-dev i2c-tools)
+{: .notice--warning}
+**Note:** (혹시 servoMax Min 변수 에러가 나오나요? /JHPWMDriver/example/example.cpp의 36, 37번줄의 주석처리를 해제합니다.)
+{: .notice--warning}
+**Note:** 위 괄호 두개는 메뉴얼에 있는 공통된 내용이랍니다. github.com/jetsonhacks/JHPWMDriver메뉴얼 읽어보시는걸 추천합니다.)
+{: .notice--warning}
 
-    (혹시 servoMax Min 변수 에러가 나오나요? /JHPWMDriver/example/example.cpp의 36, 37번줄의 주석처리를 해제합니다.)
-
-    (위 괄호 두개는 메뉴얼에 있는 공통된 내용이랍니다. github.com/jetsonhacks/JHPWMDriver메뉴얼 읽어보시는걸 추천합니다.)
 
 # I2C통신 설정
 
@@ -144,15 +143,16 @@ g++ displayExample.cpp ../src/JHPWMPCA9685.cpp -I../src -li2c -o [출력파일�
 
 자비어 핀맵 아래 I2C예제에서 볼 수 있듯 자비어 에서는 1번 과 8번 버스를 사용합니다.
 
-그러나 제가 연결한 핀은 1번 버스를 사용합니다. (8번 버스를 사용하고 싶다면 자비어의 다른 핀을 사용하셔야 합니다. 핀맵을 보고 연결해보세요!)
+그러나 제가 연결한 핀은 1번 버스를 사용합니다. 
+
+**Note:** (8번 버스를 사용하고 싶다면 자비어의 다른 핀을 사용하셔야 합니다. 핀맵을 보고 연결해보세요!)
+{: .notice--info}
 
 다음 명령어를 이용하여 i2c주소를 확인할 수 있습니다.
 
-<pre>
-<code>
+```bash
 sudo i2cdetect -y -r [버스 숫자]
-</code>
-</pre>
+```
 
 ![3번그림-i2c](https://lh5.googleusercontent.com/QxKtAwz79roDx5CDV10HqGxci1HqgrWZNQjcbxHC0wen1A-KmyY4ATxo4crUVTQAIHzp6lf8o0Sx6eqeV5zSUk6LVO9wwXQXRYNT0gmmqE93b8FuthNQpZweEMFo33P9zmLWVHqN)
 
