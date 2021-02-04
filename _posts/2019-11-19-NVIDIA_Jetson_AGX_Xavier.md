@@ -101,7 +101,7 @@ extern "C" {
 
 아래의 사진과 같이 추가를 합니다.
 
-[https://lh5.googleusercontent.com/YN6iUJpNGlBALdmUjXx07YsCz2VcF8j8M-12tvKrZwacQmAQYRWzHTVYrdWbM69ogq5pvGcPNKxCTN0ootQcOjj01hTw2k-YsO18zomVl5VhwEVjU65vG9ijXfxmmXSubvzfI-99](https://lh5.googleusercontent.com/YN6iUJpNGlBALdmUjXx07YsCz2VcF8j8M-12tvKrZwacQmAQYRWzHTVYrdWbM69ogq5pvGcPNKxCTN0ootQcOjj01hTw2k-YsO18zomVl5VhwEVjU65vG9ijXfxmmXSubvzfI-99)
+![1번그림-소스파일](https://lh5.googleusercontent.com/YN6iUJpNGlBALdmUjXx07YsCz2VcF8j8M-12tvKrZwacQmAQYRWzHTVYrdWbM69ogq5pvGcPNKxCTN0ootQcOjj01hTw2k-YsO18zomVl5VhwEVjU65vG9ijXfxmmXSubvzfI-99)
 
 그 후 소스를 돌리면 undefined reference to `i2c_smbus_read_byte_data' 라는 에러가 뜹니다.
 
