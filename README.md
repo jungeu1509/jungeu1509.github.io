@@ -1,7 +1,7 @@
 jungeu1509.github.io
 ====================
 
-blog url : https://jungeu1509.github.io
+blog url : [https://jungeu1509.github.io](https://jungeu1509.github.io){: .btn .btn--success}
 -------------------------------
 
 ### used thema : https://mmistakes.github.io/minimal-mistakes/
