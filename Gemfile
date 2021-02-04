@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 gemspec
 
+gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git"
+
 group :jekyll_plugins do
 gem 'jekyll-admin'
 gem 'jekyll-sitemap'
