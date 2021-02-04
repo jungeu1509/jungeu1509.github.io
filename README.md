@@ -1,3 +1,5 @@
 # jungeu1509.github.io
 
-https://mmistakes.github.io/minimal-mistakes/
+blog url : jungeu1509.github.io
+
+used thema : https://mmistakes.github.io/minimal-mistakes/

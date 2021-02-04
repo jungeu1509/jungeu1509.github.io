@@ -22,3 +22,11 @@ portfolio:
         url: /portfolio/structure/
       - title: "Installation"
         url: /portfolio/installation/
+
+categories-sidebar:
+    - title: categories
+    children:
+        - title: "test"
+        url: /categories/#test
+        - title: "맨위로"
+        url: /categories/#page-title
