@@ -24,9 +24,9 @@ portfolio:
         url: /portfolio/installation/
 
 categories-sidebar:
-    - title: categories
+  - title: categories
     children:
-        - title: "test"
+      - title: "test"
         url: /categories/#test
-        - title: "맨위로"
+      - title: "맨위로"
         url: /categories/#page-title
