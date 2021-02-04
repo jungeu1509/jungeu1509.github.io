@@ -2,12 +2,12 @@
 main:
   - title: "Portfolio"
     url: /portfolio/structure/
-  - title: "게시판"
-    url: /posts/
-  - title: "Categories"
+  - title: "책장"
     url: /categories/
-  - title: "Tags"
+  - title: "책갈피"
     url: /tags/
+  - title: "전체게시물"
+    url: /posts/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/  
   # - title: "Sample Collections"
