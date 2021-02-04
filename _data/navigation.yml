@@ -28,5 +28,7 @@ categories-sidebar:
     children:
       - title: "test"
         url: /categories/#test
+  - title: goto page title
+    children:
       - title: "맨위로"
         url: /categories/#page-title
