@@ -2,6 +2,7 @@
 title: "Archive Layout with Content"
 layout: archive
 permalink: /archive-layout-with-content/
+excerpt: "https://mmistakes.github.io/minimal-mistakes/docs/layouts/"
 ---
 
 A variety of common markup showing how the theme styles them.
