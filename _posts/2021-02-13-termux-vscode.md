@@ -26,7 +26,7 @@ Android앱 termux에서 vscode 실행하기
 
 ---
 
-# *. 시작하기 전에
+# *. 시작하기 전에{: .text-center}
 
 Termux는 안드로이드에서 리눅스 환경을 제공하는 강력한 app 입니다.
 
@@ -49,9 +49,9 @@ ssh등 다양한 용도로 사용 가능하기 때문에 개발자들이 애용�
 
 ---
 
-# 0. 기본 설정
+# 0. 기본 설정{: .text-center}
 
-안드로이드 앱 Termux를 설치합니다.
+안드로이드 앱 Termux를 앱스토어를 이용하여 설치후 실행합니다.
 
 명령어 입력창이 나타나면 다음과 같이 입력합니다.
 
@@ -60,7 +60,9 @@ pkg update -y
 ```
 
 
-중간중간 패키지 리스트를 업데이트 할거냐 라고 물어보는데 저는 모두 N 을 눌렀습니다. 어떻게 변하는지 잘 모르겠습니다.
+중간중간 패키지 리스트를 업데이트 할거냐 라고 물어보는데 저는 모두 N 을 눌렀습니다. 
+
+<strike>Y를 누르면 어떻게 변하는지 잘 모르겠습니다. 댓글로 알려주세요</strike>
 
 ```bash
 pkg install -y python nodejs yarn git vim-python ripgrep
@@ -72,7 +74,7 @@ pkg install -y python nodejs yarn git vim-python ripgrep
 
 ---
 
-# 1. code-server 설치
+# 1. code-server 설치{: .text-center}
 
 ## 1.1. yarn을 이용한 다운로드 
 
@@ -105,7 +107,7 @@ vi binding.gyp
 
 **vim을 처음 사용하시는분을 위한 팁** : i 를 누르면 일반모드에서 입력모드로 바뀝니다.{: .notice--success}
 
-```gyp
+```
 "libraries": [ "-latomic" ],
 ```
 위의 문장을 추가해 줄겁니다. 이 명령어는 안드로이드에서 spdlog 컴파일 가능하도록 합니다.
@@ -167,7 +169,7 @@ ln -s $(which rg) .
 
 ---
 
-# 2. 테스트 실행해보기
+# 2. 테스트 실행해보기{: .text-center}
 
 ```bash
 cd ~
@@ -190,7 +192,7 @@ code-server --auth none --disable-telemetry
 
 ---
 
-# *. 글을 마치며
+# *. 글을 마치며{: .text-center}
 
 ![VscodeAtBrowser](/assets/images/posts/20210213/vscode.jpg "VscodeAtBrowser")
 
