@@ -12,12 +12,13 @@ tags:
   - termux
   - android
   - vscode
+  - linux
 date:  2021-02-13 22:12:00 +0800
 last_modified_at: 2021-02-13 22:26:00 +0800
 toc: true
 toc_sticky: true
 toc_label: "Contents"
-toc_icon: "download"
+toc_icon: "server"
 ---
 
 
@@ -26,7 +27,8 @@ Android앱 termux에서 vscode 실행하기
 
 ---
 
-# *. 시작하기 전에{: .text-center}
+# *. 시작하기 전에
+{: .text-center}
 
 Termux는 안드로이드에서 리눅스 환경을 제공하는 강력한 app 입니다.
 
@@ -49,7 +51,8 @@ ssh등 다양한 용도로 사용 가능하기 때문에 개발자들이 애용�
 
 ---
 
-# 0. 기본 설정{: .text-center}
+# 0. 기본 설정
+{: .text-center}
 
 안드로이드 앱 Termux를 앱스토어를 이용하여 설치후 실행합니다.
 
@@ -74,7 +77,8 @@ pkg install -y python nodejs yarn git vim-python ripgrep
 
 ---
 
-# 1. code-server 설치{: .text-center}
+# 1. code-server 설치
+{: .text-center}
 
 ## 1.1. yarn을 이용한 다운로드 
 
@@ -105,7 +109,8 @@ vi binding.gyp
 
 위의 명령어를 이용해 파일을 수정해줍니다.
 
-**vim을 처음 사용하시는분을 위한 팁** : i 를 누르면 일반모드에서 입력모드로 바뀝니다.{: .notice--success}
+**vim을 처음 사용하시는분을 위한 팁** : i 를 누르면 일반모드에서 입력모드로 바뀝니다.
+{: .notice--success}
 
 ```
 "libraries": [ "-latomic" ],
@@ -131,7 +136,8 @@ vi binding.gyp
 
 저장하고 종료합니다.
 
-**vim을 처음 사용하시는 분을 위한 팁** : ESC를 누르면 입력모드에서 일반모드로 바뀌고 :wq 명령어를 입력하면 저장후 종료됩니다.{: .notice--success}
+**vim을 처음 사용하시는 분을 위한 팁** : ESC를 누르면 입력모드에서 일반모드로 바뀌고 :wq 명령어를 입력하면 저장후 종료됩니다.
+{: .notice--success}
 
 ## 1.3. spdlog 설치
 
@@ -169,7 +175,8 @@ ln -s $(which rg) .
 
 ---
 
-# 2. 테스트 실행해보기{: .text-center}
+# 2. 테스트 실행해보기
+{: .text-center}
 
 ```bash
 cd ~
@@ -188,7 +195,8 @@ code-server --auth none --disable-telemetry
 
 아마 localhost는 127.0.0.1 일것 같아요.
 
-**note:** 즉 https://127.0.0.1:8080 을 입력하시면 됩니다. {: .notice--success}
+**note:** 즉 https://127.0.0.1:8080 을 입력하시면 됩니다. 
+{: .notice--success}
 
 ---
 
