@@ -26,9 +26,10 @@ portfolio:
 categories-sidebar:
   - title: categories
     children:
-      - title: "test"
-        url: /categories/#test
-  - title: goto page title
-    children:
-      - title: "맨위로"
-        url: /categories/#page-title
+      - title: "Termux"
+        url: /categories/#termux
+    childern:
+      - title: "Blog"
+        url: /categories/#Blog 설정
+      - title: "ServoMotor"
+        url: /categories/#servomotor
