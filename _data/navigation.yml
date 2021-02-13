@@ -28,9 +28,7 @@ categories-sidebar:
     children:
       - title: "Termux"
         url: /categories/#termux
-    childern:
       - title: "Blog"
         url: /categories/#Blog
-    childern:
       - title: "ServoMotor"
         url: /categories/#servomotor
