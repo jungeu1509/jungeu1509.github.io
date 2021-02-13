@@ -30,6 +30,7 @@ categories-sidebar:
         url: /categories/#termux
     childern:
       - title: "Blog"
-        url: /categories/#Blog 설정
+        url: /categories/#Blog
+    childern:
       - title: "ServoMotor"
         url: /categories/#servomotor
