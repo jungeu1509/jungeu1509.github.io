@@ -193,9 +193,8 @@ code-server --auth none --disable-telemetry
 
 주소에 https://[localhost]:8080 을 입력해줍니다.
 
-아마 localhost는 127.0.0.1 일것 같아요.
-
-**note:** 즉 https://127.0.0.1:8080 을 입력하시면 됩니다. 
+**note:** 아마 localhost는 127.0.0.1 일것 같아요.
+즉 https://127.0.0.1:8080 을 입력하시면 됩니다. 
 {: .notice--success}
 
 ---
