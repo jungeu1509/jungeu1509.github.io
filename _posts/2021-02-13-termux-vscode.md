@@ -13,11 +13,11 @@ tags:
   - android
   - vscode
 date:  2021-02-13 22:12:00 +0800
-last_modified_at: 2021-02-13 22:12:00 +0800
+last_modified_at: 2021-02-13 22:26:00 +0800
 toc: true
 toc_sticky: true
 toc_label: "Contents"
-toc_icon: "cog"
+toc_icon: "download"
 ---
 Android앱 termux에서 vscode 실행하기
 ======================
@@ -27,7 +27,7 @@ Termux는 안드로이드에서 리눅스 환경을 제공하는 강력한 app �
 
 ssh등 다양한 용도로 사용 가능하기 때문에 개발자들이 애용하는 앱입니다.
 
-커맨드로만 사용할 수 있기 때문에 <strike>어려운 vim 대신</strike> 익숙한 vscode 에디터를 사용하는 방법을 찾았습니다.
+커맨드로만 사용할 수 있기 때문에 <strike>어려운 vim 대신</strike> UI를 볼 수 있는 vscode 에디터를 사용하는 방법을 찾았습니다.
 
 서버환경을 이용하여 브라우저로 Android에 접근하는 방법입니다.
 
@@ -185,10 +185,22 @@ code-server --auth none --disable-telemetry
 
 ---
 
-vscode 환경이 잘 실행되나요?
+# *. 글을 마치며
 
-컴퓨터에 설치하여 사용하는 것과 약간 차이가 있긴 합니다.
+![VscodeAtBrowser](/assets/images/posts/20210213/vscode.jpg "VscodeAtBrowser")
 
-브라우저에서 실행하는 것이기 때문에 ctrl+s를 누르지 않아도 자동저장되고 좋습니다.
+위 이미지 처럼 vscode 환경이 잘 실행되나요?
 
-다음 게시물에서 로컬이 아닌 다른 컴퓨터에서 실행하는 방법을 알려드리도록 하겠습니다.
+컴퓨터에 설치하여 사용하는 것과 서버로 사용하는 것이 약간 차이가 있긴 합니다만
+
+명령어만 입력하는 창보다 <strike>어려운 vim 대신</strike> **UI 환경**이 더 익숙한 분들이 많을겁니다.
+
+다른 장점도 있습니다!
+
+브라우저에서 실행하는 것이기 때문에 ctrl+s를 누르지 않아도 **자동저장**되고 좋습니다.
+
+## *. 다음 게시물에서는?
+
+또한 같은 네트워크 다른 기기 혹은 외부 네트워크의 다른 기기의 브라우저에서 접속도 가능합니다.
+
+다음 게시물에서 방법을 알려드리도록 하겠습니다.
