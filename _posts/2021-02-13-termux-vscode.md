@@ -27,7 +27,7 @@ Android앱 termux에서 vscode 실행하기
 
 ---
 
-# *. 시작하기 전에
+# [ *. 시작하기 전에 ]
 {: .text-center}
 
 Termux는 안드로이드에서 리눅스 환경을 제공하는 강력한 app 입니다.
@@ -51,7 +51,7 @@ ssh등 다양한 용도로 사용 가능하기 때문에 개발자들이 애용�
 
 ---
 
-# 0. 기본 설정
+# [ 0. 기본 설정 ]
 {: .text-center}
 
 안드로이드 앱 Termux를 앱스토어를 이용하여 설치후 실행합니다.
@@ -77,7 +77,7 @@ pkg install -y python nodejs yarn git vim-python ripgrep
 
 ---
 
-# 1. code-server 설치
+# [ 1. code-server 설치 ]
 {: .text-center}
 
 ## 1.1. yarn을 이용한 다운로드 
@@ -175,7 +175,7 @@ ln -s $(which rg) .
 
 ---
 
-# 2. 테스트 실행해보기
+# [ 2. 테스트 실행해보기 ]
 {: .text-center}
 
 ```bash
@@ -200,7 +200,8 @@ code-server --auth none --disable-telemetry
 
 ---
 
-# *. 글을 마치며{: .text-center}
+# [ *. 글을 마치며 ]
+{: .text-center}
 
 ![VscodeAtBrowser](/assets/images/posts/20210213/vscode.jpg "VscodeAtBrowser")
 
