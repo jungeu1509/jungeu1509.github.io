@@ -19,9 +19,14 @@ toc_sticky: true
 toc_label: "Contents"
 toc_icon: "download"
 ---
-Android앱 termux에서 vscode 실행하기
-======================
 
+
+Android앱 termux에서 vscode 실행하기
+
+
+---
+
+# *. 시작하기 전에
 
 Termux는 안드로이드에서 리눅스 환경을 제공하는 강력한 app 입니다.
 
