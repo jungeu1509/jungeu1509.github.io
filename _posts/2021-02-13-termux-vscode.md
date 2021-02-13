@@ -39,7 +39,10 @@ ssh등 다양한 용도로 사용 가능하기 때문에 개발자들이 애용�
 
 <strike>(거의 아래 사이트 번역이라고 보시면 됩니다.)</strike>
 
-[참고 사이트](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--success}
+
+[참고 사이트](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--info}
+
+---
 
 # 0. 기본 설정
 
@@ -61,6 +64,8 @@ pkg install -y python nodejs yarn git vim-python ripgrep
 필요한 패키지들을 미리 모두 설치하겠습니다.
 
 설치가 완료되면 vscode 설치를 위한 기본 설정은 끝납니다.
+
+---
 
 # 1. code-server 설치
 
@@ -104,7 +109,7 @@ vi binding.gyp
 
 아래와 같이 추가합니다.
 
-```gyp
+```
 {
   "targets": [{
     "target_name": "spdlog",
@@ -154,6 +159,8 @@ ln -s $(which rg) .
 위의 명령어까지 실행하면 모두 완료 됐습니다.
 
 고생하셨습니다.
+
+---
 
 # 2. 테스트 실행해보기
 
