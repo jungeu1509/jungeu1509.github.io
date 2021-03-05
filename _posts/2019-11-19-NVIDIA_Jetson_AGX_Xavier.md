@@ -11,6 +11,7 @@ tags:
  - 서보모터
  - nvidia
  - 모터
+excerpt: "Xavier 보드를 이용한 서보모터 동작 테스트"
 case date: 2019-11-19 23:36:00 +0800 
 last_modified_at: 2021-02-05 12:14:00 +0800 
 toc: true

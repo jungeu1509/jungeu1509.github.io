@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Android앱 termux에서 vscode 실행하기"
-excerpt: "https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01"
+excerpt: "vscode 서버 실행하여 브라우저에서 실행"
 header:
   teaser:
 search:
@@ -13,16 +13,22 @@ tags:
   - android
   - vscode
   - linux
+  - 갤럭시탭
 date:  2021-02-13 22:12:00 +0800
-last_modified_at: 2021-02-13 22:26:00 +0800
+last_modified_at: 2021-02-24 18:25:00 +0800
 toc: true
 toc_sticky: true
 toc_label: "Contents"
 toc_icon: "server"
 ---
 
+# [ 시리즈 목록 ]
 
 Android앱 termux에서 vscode 실행하기
+
+1. **Android앱 termux에서 vscode 실행하기(현재글)**
+
+2. [Android앱 termux로 서버화하여 다양한 기기에서 vscode 실행하기](/_posts/termux/2021-03-15-termux-vscode-server)
 
 
 ---
@@ -32,22 +38,25 @@ Android앱 termux에서 vscode 실행하기
 
 Termux는 안드로이드에서 리눅스 환경을 제공하는 강력한 app 입니다.
 
-ssh등 다양한 용도로 사용 가능하기 때문에 개발자들이 애용하는 앱입니다.
+ssh등 다양한 용도로 사용 가능하기 때문에 개발자들이 사랑하는 앱입니다.
 
-커맨드로만 사용할 수 있기 때문에 <strike>어려운 vim 대신</strike> UI를 볼 수 있는 vscode 에디터를 사용하는 방법을 찾았습니다.
+Termux는 커맨드로만 사용할 수 있기 때문에 <strike>어려운 vim 환경 대신</strike> UI를 볼 수 있는 직관적인 vscode 에디터를 사용하는 방법을 찾았습니다.
 
 서버환경을 이용하여 브라우저로 Android에 접근하는 방법입니다.
 
-저는 Galaxy Tab +7을 보유하고 있는데 너무 해보고 싶어서 하루 꼬박 날려가며 시도했습니다.
+깃을 자주 사용하는 저는 깃을 직관적으로 관리가 가능한 에디터가 너무 필요했기 때문에
 
-여러 블로그를 뒤지다가 아래 사이트에서 참고했습니다. 
+앱으로 실행이 아닌 서버환경에서 사용해야함에도 불구하고 너무 필요했고 잘 쓰고 있습니다.
+
+저는 Galaxy Tab +7을 보유하고 있는데 너무 해보고 싶어서 하루 꼬박 날려가며(거의 8시간...) 시도했습니다.
+
+검색하며 여러 사이트들을 뒤지다가 아래 사이트에서 최종 참고했습니다. 
+
+(거의 아래 사이트 번역이라고 보시면 됩니다.)
 
 여러분들 모두 쉽게 성공하시길 바랍니다. 
 
-<strike>(거의 아래 사이트 번역이라고 보시면 됩니다.)</strike>
-
-
-[참고 사이트](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--info}
+[참고 사이트:https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--info}
 
 ---
 
@@ -63,7 +72,7 @@ pkg update -y
 ```
 
 
-중간중간 패키지 리스트를 업데이트 할거냐 라고 물어보는데 저는 모두 N 을 눌렀습니다. 
+중간중간 패키지 리스트를 업데이트 할거냐 라고 물어보는데 터미널에서 N을 추천하길래 저는 모두 N 을 눌렀습니다. 
 
 <strike>Y를 누르면 어떻게 변하는지 잘 모르겠습니다. 댓글로 알려주세요</strike>
 
@@ -71,7 +80,7 @@ pkg update -y
 pkg install -y python nodejs yarn git vim-python ripgrep
 ```
 
-필요한 패키지들을 미리 모두 설치하겠습니다.
+위의 명령어로 필요한 패키지들을 미리 모두 설치하겠습니다.
 
 설치가 완료되면 vscode 설치를 위한 기본 설정은 끝납니다.
 
@@ -94,9 +103,9 @@ yarn global add code-server
 
 바로 code-server를 실행하면 오류가 발생합니다.
 
-node를 못찾는 오류가 발생하는데요
+node를 못 찾는 오류가 발생하는데요
 
-환경설정 파일을 수정해주고 다시 빌드 해줄겁니다.
+환경설정 파일을 수정해주고 다시 빌드해줄겁니다.
 
 ```bash
 cd ~/.config/yarn/global/node_modules/code-server/lib/vscode/node_modules/spdlog/
@@ -193,7 +202,7 @@ code-server --auth none --disable-telemetry
 
 주소에 https://[localhost]:8080 을 입력해줍니다.
 
-**note:** 아마 localhost는 127.0.0.1 일것 같아요.
+**note:** localhost는 127.0.0.1 일겁니다.
 즉 https://127.0.0.1:8080 을 입력하시면 됩니다. 
 {: .notice--success}
 
@@ -202,7 +211,7 @@ code-server --auth none --disable-telemetry
 # [ *. 글을 마치며 ]
 {: .text-center}
 
-![VscodeAtBrowser](/assets/images/posts/20210213/vscode.jpg "VscodeAtBrowser")
+![VscodeAtBrowser](/_posts/termux/img/vscode.jpg "VscodeAtBrowser")
 
 위 이미지 처럼 vscode 환경이 잘 실행되나요?
 
@@ -216,6 +225,6 @@ code-server --auth none --disable-telemetry
 
 ## *. 다음 게시물에서는?
 
-또한 같은 네트워크 다른 기기 혹은 외부 네트워크의 다른 기기의 브라우저에서 접속도 가능합니다.
+또한 같은 네트워크 다른 기기의  브라우저에서 접속도 가능합니다.
 
-다음 게시물에서 방법을 알려드리도록 하겠습니다.
+다음 게시물에서 이 방법을 알려드리도록 하겠습니다.
