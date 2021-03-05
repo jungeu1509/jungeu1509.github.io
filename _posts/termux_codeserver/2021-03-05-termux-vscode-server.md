@@ -15,7 +15,7 @@ tags:
   - linux
   - 갤럭시탭
 date:  2021-03-05 16:05:00 +0800
-last_modified_at: 2021-02-05 16:05:00 +0800
+last_modified_at: 2021-03-05 18:40:00 +0800
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -26,7 +26,7 @@ toc_icon: "server"
 
 Android앱 termux에서 vscode 실행하기
 
-1. [Android앱 termux에서 vscode 실행하기](/_posts/termux_codeserver/2021-03-15-termux-vscode)
+1. [Android앱 termux에서 vscode 실행하기](https://jungeu1509.github.io/termux/termux-vscode/)
 
 2. **Android앱 termux로 서버화하여 다양한 기기에서 vscode 실행하기(현재글)**
 
@@ -114,7 +114,7 @@ cat ~/.config/code-server/config.yaml
 
 위의 명령어를 치면 아래 사진처럼 알려줄 겁니다.
 
-![1번그림-비밀번호](/_posts/termux_codeserver/img/Termux_1.jpg "vscode-server_pw")
+![1번그림-비밀번호](/assets/images/posts/termux/20210305/Termux_1.jpg "vscode-server_pw")
 
 **코드서버 실행하니 명령어를 안먹어요!** 두가지 방법이 있습니다. 1. 터미널을 하나 더 실행합니다. 2. ctrl + C 를 이용하여 우선 서버를 중지 시킵니다. 위의 code-server 명령맨뒤에 &을 실행하면 백그라운드에서 명령이 실행됩니다.
 {: .notice--success}
@@ -155,13 +155,19 @@ code-server --bind-addr 0.0.0.0:8080 --cert --disable-telemetry
 ```bash
 ifconfig
 ```
- 위 명령어를 사용하면 아래 사진처럼 각 인터페이스별 IP주소를 알려줍니다.
- 
- lo 는 로컬 서버입니다.
+위 명령어를 사용하면 아래 사진처럼 각 인터페이스별 IP주소를 알려줍니다.
 
-그 외에 몇가지가 있을텐데 inet뒤의 00.00.00.00 부분이 IP 입니다.
+![2번그림-IP](/assets/images/posts/termux/20210305/Termux_2.jpg "vscode-server_ip")
+
+lo 는 로컬 서버입니다.
+
+그 외에 몇 가지가 있을텐데 inet뒤의 00.00.00.00 부분이 IP 입니다.
+
+저는 이름이 통일되어 있어서 뭐가 뭔지 모르겠네요... 저와 비슷하게 나오는 분들은 두개를 아래부터 차례로 해보세요
 
 같은 네트워크 내의 다른 기기 브라우저에서 저 ip를 입력하면 안드로이드 기기에서 실행되는 코드서버를 사용하실 수 있습니다. (비밀번호를 입력하셔야 합니다.)
+
+즉, https://[IP]:8080 을 주소창에 입력하면 됩니다!
 
 ---
 
@@ -169,7 +175,7 @@ ifconfig
 
 갤럭시 탭을 사용하면서 참 놀랍다고 생각합니다.
 
-안드로이드 기기가 서버가 될 수도 있고, 외장메모리(?)가 될 수도 있고, 휴대용 통신 기기가 될 수도 있고. 다양한 기능을 할 수 있습니다.
+안드로이드 기기가 서버가 될 수도 있고, 외장메모리(?)가 될 수도 있고, 휴대용 통신 기기가 될 수도 있고. 다양한 기능으로 활용할 수 있습니다.
 
 요즘은 심지어 멀티테스킹이 너무 잘 되어서 여러작업들을 동시에 원활히 가능합니다.
 
@@ -179,4 +185,6 @@ ifconfig
 
 제 목표는 gui환경에서 깃을 이용하고 코드를 관리하는 환경을 이용하는 것인데 충분히 활용 가능하다 생각합니다.
 
-개발자 분들 중에서 아이패드와 갤럭시탭을 고민하시는 분들은 이런 것도 참고하시면 좋을 것 같아요. (아 물론 고사양 노트북이 갑이지만요.)
+개발자 분들 중에서 아이패드와 갤럭시탭을 고민하시는 분들은 이런 것도 참고하시면 좋을 것 같아요. 
+
+(아 물론 고사양 노트북이 갑이지만요.)

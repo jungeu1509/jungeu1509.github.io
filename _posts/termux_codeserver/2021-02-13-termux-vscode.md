@@ -15,7 +15,7 @@ tags:
   - linux
   - 갤럭시탭
 date:  2021-02-13 22:12:00 +0800
-last_modified_at: 2021-02-24 18:25:00 +0800
+last_modified_at: 2021-03-05 18:40:00 +0800
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -28,7 +28,7 @@ Android앱 termux에서 vscode 실행하기
 
 1. **Android앱 termux에서 vscode 실행하기(현재글)**
 
-2. [Android앱 termux로 서버화하여 다양한 기기에서 vscode 실행하기](/_posts/termux_codeserver/2021-03-15-termux-vscode-server)
+2. [Android앱 termux로 서버화하여 다양한 기기에서 vscode 실행하기](https://jungeu1509.github.io/termux/termux-vscode-server/)
 
 
 ---
@@ -56,7 +56,7 @@ Termux는 커맨드로만 사용할 수 있기 때문에 <strike>어려운 vim �
 
 여러분들 모두 쉽게 성공하시길 바랍니다. 
 
-[참고 사이트:https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--info}
+[참고 사이트 : https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--info}
 
 ---
 
@@ -211,7 +211,7 @@ code-server --auth none --disable-telemetry
 # [ *. 글을 마치며 ]
 {: .text-center}
 
-![VscodeAtBrowser](/_posts/termux_codeserver/img/vscode.jpg "VscodeAtBrowser")
+![VscodeAtBrowser](/assets/images/posts/termux/20210213/vscode.jpg "VscodeAtBrowser")
 
 위 이미지 처럼 vscode 환경이 잘 실행되나요?
 
