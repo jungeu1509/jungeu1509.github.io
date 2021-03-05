@@ -211,7 +211,7 @@ code-server --auth none --disable-telemetry
 # [ *. 글을 마치며 ]
 {: .text-center}
 
-![VscodeAtBrowser](/_posts/termux/img/vscode.jpg "VscodeAtBrowser")
+![VscodeAtBrowser](/_posts/termux_codeserver/img/vscode.jpg "VscodeAtBrowser")
 
 위 이미지 처럼 vscode 환경이 잘 실행되나요?
 
