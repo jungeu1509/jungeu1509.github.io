@@ -312,7 +312,7 @@ defaults:
       author_profile: true
   # _portfolio
   - scope:
-      path: ""
+      path: "_portfolio"
       type: portfolio
     values:
       layout: single
@@ -321,4 +321,4 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "portfolio"
+        nav: "portfolio-sidebar"

@@ -16,7 +16,7 @@ main:
   #   url: /sitemap/
 
 portfolio-sidebar:
-  - title: Getting Started
+  - title: Portfolio
     children:
       - title: "Structure"
         url: /portfolio/structure/

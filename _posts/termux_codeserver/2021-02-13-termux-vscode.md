@@ -23,6 +23,7 @@ toc_icon: "server"
 ---
 
 # [ 시리즈 목록 ]
+{: .text-center}
 
 Android앱 termux에서 vscode 실행하기
 

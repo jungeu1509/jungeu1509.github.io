@@ -23,6 +23,7 @@ toc_icon: "server"
 ---
 
 # [ 시리즈 목록 ]
+{: .text-center}
 
 Android앱 termux에서 vscode 실행하기
 
@@ -34,7 +35,7 @@ Android앱 termux에서 vscode 실행하기
 ---
 
 # [ *. 이전글에서]
-
+{: .text-center}
 
 안드로이드 앱 termux를 이용하여 사용하는 안드로이드 기기 브라우저를 이용해서 vscode를 실행시키는 것을 정리했습니다.
 
@@ -55,7 +56,6 @@ Android앱 termux에서 vscode 실행하기
 ---
 
 # [ 1. 안드로이드 로컬환경 에서 실행 ]
-{: .text-center}
 
 홈 디렉토리로 이동합니다
 ```bash
@@ -90,8 +90,6 @@ code-server --auth none --disable-telemetry
 ---
 
 # [ 2. 동일 네트워크환경의 다른 기기에서 실행 ]
-{: .text-center}
-
 
 ## 2.1. HTTP 사용
 
