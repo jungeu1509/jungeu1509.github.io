@@ -3,7 +3,7 @@ layout: single
 title:  "Android앱 termux에서 vscode 실행하기"
 excerpt: "vscode 서버 실행하여 브라우저에서 실행"
 header:
-  teaser:
+  teaser: /assets/images/posts/termux/termux.jpg
 search:
 permalink:
 categories: 

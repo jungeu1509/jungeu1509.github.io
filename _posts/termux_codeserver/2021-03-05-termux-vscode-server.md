@@ -3,7 +3,7 @@ layout: single
 title:  "Android앱 termux로 서버화하여 다양한 기기에서 vscode 실행하기"
 excerpt: "vscode 서버 실행하여 다양한 기기의 브라우저에서 실행방법"
 header:
-  teaser:
+  teaser: /assets/images/posts/termux/termux.jpg
 search:
 permalink:
 categories: 

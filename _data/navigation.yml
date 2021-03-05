@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Portfolio"
-    url: /portfolio/structure/
+    url: /portfolio/
   - title: "책장"
     url: /categories/
   - title: "책갈피"
@@ -15,7 +15,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-portfolio:
+portfolio-sidebar:
   - title: Getting Started
     children:
       - title: "Structure"
