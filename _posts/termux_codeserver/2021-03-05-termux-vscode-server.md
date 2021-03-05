@@ -15,7 +15,7 @@ tags:
   - linux
   - 갤럭시탭
 date:  2021-03-05 16:05:00 +0800
-last_modified_at: 2021-03-05 18:40:00 +0800
+last_modified_at: 2021-03-05 18:43:00 +0800
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -50,7 +50,7 @@ Android앱 termux에서 vscode 실행하기
 
 여러분들 모두 쉽게 성공하시길 바랍니다. 
 
-[참고 사이트:https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--info}
+[참고 사이트 : https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01](https://gist.github.com/ppoffice/b9e88c9fd1daf882bc0e7f31221dda01){: .btn .btn--info}
 
 ---
 
