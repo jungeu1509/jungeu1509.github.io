@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : dark-blue # "github-light" (default), "github-dark" https://utteranc.es/
-    issue_term           : # "pathname" (default)
+    theme                :  github-dark-orange # "github-light" (default), "github-dark", "dark-blue" https://utteranc.es/
+    issue_term           : og:title # "pathname" (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
