@@ -1,12 +1,4 @@
-<script src="https://utteranc.es/client.js"
-        repo="jungeu1509/blog-comments"
-        issue-term="pathname"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-
-<!-- <script>
+<script>
   'use strict';
 
   (function() {
@@ -18,11 +10,11 @@
 
     var script = document.createElement('script');
     script.setAttribute('src', 'https://utteranc.es/client.js');
-    script.setAttribute('repo', '{{ site.repository }}');
+    script.setAttribute('repo', 'jungeu1509/blog-comments');
     script.setAttribute('issue-term', '{{ site.comments.utterances.issue_term | default: "pathname" }}');
-    script.setAttribute('theme', '{{ site.comments.utterances.theme | default: "github-light" }}');
-    script.setAttribute('crossorigin', 'anonymous');
+    script.setAttribute('theme', '{{ site.comments.utterances.theme | default: "github-dark" }}');
+    script.setAttribute('anonymous');
 
     commentContainer.appendChild(script);
   })();
-</script> -->
+</script>
