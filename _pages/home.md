@@ -30,7 +30,4 @@ excerpt: >
 comments: true  
 ---
 
-{% include home.html %}
-
-
 {% include feature_row %}
