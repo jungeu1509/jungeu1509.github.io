@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: default
 permalink: /
 hidden: true
 header:
@@ -29,5 +29,8 @@ excerpt: >
   Please write a guestbook.
 comments: true  
 ---
+
+{% include home.html %}
+
 
 {% include feature_row %}

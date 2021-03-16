@@ -1,4 +1,49 @@
 ---
-layout: home
+layout: archive
+hidden: true
 author_profile: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/home/mm-home-page-feature.jpg
+  actions:
+    - label: "<i class='fas fa-user-circle'></i> About Me"
+      url: "/portfolio/"
+excerpt: >
+  Welcome to my blog.<br />
+feature_row:
+  - image_path: /assets/images/logo/heart-beat.png
+    alt: "portfolio"
+    title: "My portfolio"
+    excerpt: "Introduce Eunwoo Jung"
+    url: "/portfolio/"
+    btn_class: "btn--primary"
+    btn_label: "Click here"
+  - image_path: /assets/images/logo/heart-beat.png
+    alt: "Blog"
+    title: "My posts"
+    excerpt: "My all posts"
+    url: "/categories/"
+    btn_class: "btn--primary"
+    btn_label: "Click here"
+excerpt: >
+  Please write a guestbook.
+comments: true  
 ---
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
