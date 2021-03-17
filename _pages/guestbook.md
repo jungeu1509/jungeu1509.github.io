@@ -6,4 +6,3 @@ classes: wide
 author_profile: true
 comments: true
 ---
-{% include comments.html %}
