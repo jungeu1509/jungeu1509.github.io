@@ -1,11 +1,12 @@
 ---
-layout: archive
+layout: home
 hidden: true
 author_profile: true
 classes: wide
 header:
-  overlay_color: "#5e616c"
+  overlay_color: "#8da9e0"
   overlay_image: /assets/images/home/home_sunset.jpg
+  overlay_filter: rgba(10, 10, 50, 0.5)
   actions:
     - label: "<i class='fas fa-user-circle'></i> About Me"
       url: "/portfolio/"
@@ -34,21 +35,3 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Click here"
 ---
-{{ content }}
-
-<h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% include paginator.html %}

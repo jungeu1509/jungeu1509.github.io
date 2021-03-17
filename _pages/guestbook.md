@@ -1,8 +1,10 @@
 ---
-title: "Posts by Tag"
+title: "Guestbook"
 permalink: /guestbook/
 layout: single
-author_profile: true
+type: posts
 classes: wide
+author_profile: true
 comments: true
 ---
+{% include comments.html %}

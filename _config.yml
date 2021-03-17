@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Eunwoo Jung "
-  avatar           : "/assets/images/logo/heart-beat.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/home/Eunwoo_2019.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**Kenneth Jung**"
   location         : "Seoul, South Korea"
   email            : "jungeu1509@gmail.com"
@@ -297,7 +297,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false # predict read time
       comments: true
       share: true
