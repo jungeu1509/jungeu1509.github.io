@@ -8,6 +8,8 @@ main:
     url: /tags/
   - title: "전체게시물"
     url: /posts/
+  - title: "Guestbook"
+    url: /guestbook/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/  
   # - title: "Sample Collections"
