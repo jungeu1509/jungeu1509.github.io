@@ -303,6 +303,9 @@ defaults:
       share: true
       related: true
       show_date: true
+      image: /assets/images/home/home_sunset.jpg
+      hight: 400
+      width: 400
   # _pages
   - scope:
       path: "_pages"
