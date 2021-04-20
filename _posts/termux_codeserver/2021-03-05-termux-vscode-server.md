@@ -27,7 +27,7 @@ toc_icon: "server"
 
 Android앱 termux에서 vscode 실행하기
 
-1. [Android앱 termux에서 vscode 실행하기](https://jungeu1509.github.io/termux/termux-vscode/)
+1. [Android앱 termux에서 vscode 실행하기](https://jungeu1509.github.io/termux/termux-vscode-run/)
 
 2. **Android앱 termux로 서버화하여 다양한 기기에서 vscode 실행하기(현재글)**
 
