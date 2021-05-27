@@ -28,6 +28,8 @@ portfolio-sidebar:
 categories-sidebar:
   - title: categories
     children:
+      - title: "Algorithm"
+        url: /categories/#algorithm
       - title: "Termux"
         url: /categories/#termux
       - title: "Blog"
