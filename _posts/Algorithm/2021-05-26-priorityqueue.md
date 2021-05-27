@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "우선순위 큐 "
+title:  "C++ STL priority_queue 우선순위 큐 사용법"
 excerpt: "https://jungeu1509.github.io"
 header:
   teaser:
@@ -22,7 +22,9 @@ toc_icon: "cog"
 ---
 ---
 
-C++ 사용한 우선순위 큐 정리.
+C++ stl을 사용한 우선순위 큐 정리.
+
+How to use priority_queue in C++ stl
 
 ---
 
