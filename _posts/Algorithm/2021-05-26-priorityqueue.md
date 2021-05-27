@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "C++ STL priority_queue 우선순위 큐 사용법"
-excerpt: "https://jungeu1509.github.io"
+excerpt: "C++ stl을 사용한 우선순위 큐 내용정리."
 header:
   teaser:
 search:
