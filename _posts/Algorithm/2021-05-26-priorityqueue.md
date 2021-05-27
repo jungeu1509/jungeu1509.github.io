@@ -71,6 +71,7 @@ Priority Queue는 Container의 한 종류이며
 7. swap : 두개의 priorityqueue를 swap한다.(내부를 서로 바꾼다.)
 
 ### 1.2.1 push와 emplace의 차이
+{: .text-center}
 
 밑에서 더 설명하겠지만, 간단히 말하면 우선순위 큐의 경우 구조체를 많이 삽입하게 된다.
 
@@ -114,7 +115,8 @@ int main() {
 } 
 ```
 
-### 1.2.2 쉬운 예시(1) - 큰수부터
+### 1.2.2 쉬운 예시
+{: .text-center}
 
 간단하게 우선순위큐 사용방법은 아래와 같이 쓸 수 있다.
 
@@ -156,6 +158,8 @@ int main() {
 
 넣는 순서와 상관없이 큰 값이 제일 먼저 나오게 된다.
 
+---
+
 # 2. 심화사용법
 
 큰값이 나오는 것이 아닌 작은 값 순서로 배치되게 하려면 어떻게 해야할까.
@@ -176,12 +180,15 @@ priority_queue<자료형, 구현체, 비교연산자> pq;
 3. 비교연산자 : 비교를 위한 기준을 알려준다.
 
 ### 2.1.1 작은수 우선
+{: .text-center}
 
 위의 선언방법을 이용하여 우선순위 큐를 큰값이 아닌 작은 값으로 배치되게 하려면 어떻게 해야할까.
 
 #### 2.1.1.1 기본 비교연산자
+{: .text-center}
 
-비교연산자에 greater<자료형> 을 사용하면 작은수부터 출력된다(큰수부터 출력하려면 less<자료형> 이다.)
+비교연산자에 greater<자료형> 을 사용하면 작은수부터 출력된다
+(큰수부터 출력하려면 less<자료형> 이다.)
 
 ```c++
 #include <queue>
@@ -211,6 +218,7 @@ int main() {
 
 
 #### 2.1.1.2 비교연산자 활용
+{: .text-center}
 
 ```c++
 #include <queue>
@@ -247,6 +255,7 @@ int main() {
 ```
 
 ### 2.1.2 구조체 활용
+{: .text-center}
 
 우선순위 큐를 제대로 활용하기 위해 보통 다음과 같이 구조체를(다른 컨테이너의 방법으로 사용해도 된다) 이용하여 많이 사용한다.
 
@@ -317,7 +326,7 @@ int main() {
 [Easy is Perfect - [백준] 1966번 C/C++ 풀이 _ 프린터 큐](http://melonicedlatte.com/algorithm/2018/02/18/230705.html) (http://melonicedlatte.com/algorithm/2018/02/18/230705.html)
 
 
-# 참고 및 출처
+# 4. 참고 및 출처
 
 1. [cplusplus - priority_queue reference](http://www.cplusplus.com/reference/queue/priority_queue/swap/) (http://www.cplusplus.com/reference/queue/priority_queue/swap/)
 2. [lhy0 - priority_queue emplace() vs push()](https://lhy0.tistory.com/3) (https://lhy0.tistory.com/3)
