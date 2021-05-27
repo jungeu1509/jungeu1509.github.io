@@ -320,19 +320,33 @@ int main() {
 
 ## 3.1 백준 1966 프린터큐
 
-<문제>
+**문제**
+
 [백준 - 1966 프린터 큐](https://www.acmicpc.net/problem/1966) (https://www.acmicpc.net/problem/1966)
-<내가 쓴 답 풀이>
+
+---
+
+**내가 쓴 답 풀이**
+
 [풀이](https://github.com/jungeu1509/algorithm_Baekjoon/blob/master/2020/1966(Printer_queue).cpp) (https://github.com/jungeu1509/algorithm_Baekjoon/blob/master/2020/1966(Printer_queue).cpp)
-<참고 풀이>
+
+---
+
+**참고 풀이**
+
 [Easy is Perfect - [백준] 1966번 C/C++ 풀이 _ 프린터 큐](http://melonicedlatte.com/algorithm/2018/02/18/230705.html) (http://melonicedlatte.com/algorithm/2018/02/18/230705.html)
 
 
 # 4. 참고 및 출처
 
 1. [cplusplus - priority_queue reference](http://www.cplusplus.com/reference/queue/priority_queue/swap/) (http://www.cplusplus.com/reference/queue/priority_queue/swap/)
+
+
 2. [lhy0 - priority_queue emplace() vs push()](https://lhy0.tistory.com/3) (https://lhy0.tistory.com/3)
+
 3. [프로그래밍 - [C++ STL] Priority_queue 사용법](https://kbj96.tistory.com/15) (https://kbj96.tistory.com/15)
+
 4. [geeksforgeeks - priority_queue emplace() in C++ STL](https://www.geeksforgeeks.org/priority_queue-emplace-in-cpp-stl/) (https://www.geeksforgeeks.org/priority_queue-emplace-in-cpp-stl/)
+
 5. [구사과 - STL priority queue 활용법](https://koosaga.com/9) (https://koosaga.com/9)
-6. 
+   
