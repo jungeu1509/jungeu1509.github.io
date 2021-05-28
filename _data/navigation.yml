@@ -32,6 +32,8 @@ categories-sidebar:
         url: /categories/#algorithm
       - title: "Termux"
         url: /categories/#termux
+      - title: "IT Event"
+        url: /categories/#IT_Event
       - title: "Blog"
         url: /categories/#Blog
       - title: "ServoMotor"
