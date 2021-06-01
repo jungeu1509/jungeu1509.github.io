@@ -4,7 +4,7 @@ title:  "[2021 DEV CARNIVAL - 원티드(Wanted)] 코딩테스트 후기"
 excerpt: "원티드 데브카니발 코딩테스트 후기"
 header:
   teaser: /assets/images/posts/IT_Event/20210528/1.jpg
-search:
+search: true
 permalink:
 categories: 
   - IT_Event
@@ -45,6 +45,10 @@ toc_icon: "cog"
 시험은 그림에 나와있는대로 오후 2시부터 4시까지 2시간 진행됐다.
 
 4문제가 출제되었고 문제의 난이도는 높은편이였다고 생각된다.
+
+자세한 설명은 못하고 개인적으로 느낀점을 적었다.
+
+(이 글이 문제가 될시 예고없이 삭제가 될 수 있다.)
 
 ## 3.1 1번문제
 
