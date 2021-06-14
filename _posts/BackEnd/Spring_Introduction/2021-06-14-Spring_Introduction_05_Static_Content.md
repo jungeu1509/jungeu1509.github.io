@@ -19,7 +19,11 @@ toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
+---
 
+https://inf.run/hisy 강의를 수강하고 작성하는 게시물입니다.
+
+---
 # 1. 스프링 웹 개발 기초
 
 1. 정적 컨텐츠 : 파일을 그대로 웹 브라우저에 내려줌

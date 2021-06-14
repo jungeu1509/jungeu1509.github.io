@@ -19,7 +19,11 @@ toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
+---
 
+https://inf.run/hisy 강의를 수강하고 작성하는 게시물입니다.
+
+---
 # 1. 라이브러리
 
 프로젝트의 폴더 목록에서

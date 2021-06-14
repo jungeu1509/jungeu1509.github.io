@@ -19,7 +19,11 @@ toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
+---
 
+https://inf.run/hisy 강의를 수강하고 작성하는 게시물입니다.
+
+---
 # 1. 빌드하기
 
 맥 os 사용할경우(필자는 맥을 이용한다.)

@@ -13,13 +13,17 @@ tags:
   - backend
   - study
 date:  2021-06-08 19:30:00 +0800
-last_modified_at: 2021-06-08 19:30:00 +0800
+last_modified_at: 2021-06-14 20:00:00 +0800
 toc: true
 toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
+---
 
+https://inf.run/hisy 강의를 수강하고 작성하는 게시물입니다.
+
+---
 # 1. 설치
 
 - java 11
@@ -28,7 +32,7 @@ toc_icon: "cog"
 # 2. 프로젝트 생성
 
 부트 스타터 사이트에서 프로젝트를 간편하게 생성한다.
-- https://start.spring.id
+- https://start.spring.io
 
 Project -> Gradle Project 생성 (라이브러리를 땡겨오고 라이프사이클 관리 툴 요즘은 그래들로 많이 한다.)
 

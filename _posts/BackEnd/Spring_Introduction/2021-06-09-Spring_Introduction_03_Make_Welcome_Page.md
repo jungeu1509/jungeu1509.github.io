@@ -19,7 +19,11 @@ toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
+---
 
+https://inf.run/hisy 강의를 수강하고 작성하는 게시물입니다.
+
+---
 # 1. Welcom 파일생성하기
 
 src - main - resources - static

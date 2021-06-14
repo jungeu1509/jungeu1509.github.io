@@ -19,7 +19,11 @@ toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
+---
 
+https://inf.run/hisy 강의를 수강하고 작성하는 게시물입니다.
+
+---
 # 1. MVC(Model View Controler)와 템플릿 엔진
 
 모델1에서는 컨트롤러와 뷰를 분류하지 않고 뷰에서 모든걸 다했다.
