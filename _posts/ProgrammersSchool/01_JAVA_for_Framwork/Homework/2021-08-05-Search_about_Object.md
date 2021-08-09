@@ -50,34 +50,78 @@ String 클래스 역시 Object클래스를 상속받았다.(Object 메서드를 
 
 ## 2.1. toString()
 
-toString() 메서드는 인스턴스 정보를 문자열로 반환하는 메서드이다.
+toString() 메서드는 객체 정보를 문자열로 반환하는 메서드이다.
+
+다음 코드를 보자.
 
 ```java
-Age age = new Age(20); // 구현 생략
-System.out.println(age); 
+public class Student {
+    int age;
+    String name;
+
+    Student(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student(20, "Jane");
+        System.out.println(s1);
+        System.out.println(s1.toString());
+    }
+}
 ```
-위와 같은 출력문에 인스턴스를 바로 넣을경우 해당하는 값이 아닌 아래와 같이 인스턴스 정보값이 나온다.
+
+학생정보를 저장하고 인스턴스 정보를 출력해보자.
+
+위와 같은 출력문에 인스턴스를 바로 넣을경우 인스턴스 내부의 값이 아닌 아래와 같이 인스턴스 정보값이 나온다.
 
 ```bash
 Class.Name@hashcode()
 
-# example : object.Age@16f65612
+# example : Test.Student@1dbd16a6
 ```
+
+다음은 직접 실행한 사진이다.
+
+![Before Override](/assets/images/posts/ProgrammersSchool/Homework/Search_about_Object_001.png "Before Override")
 
 클래스이름@해시코드값 이 출력된다. 바로 인스턴스 정보값이다.
 
-(단 String과 Integer 클래스의 경우 인스턴스 정보가 아닌 해당 값이 출력된다. - 클래스에서 이미 재정의 되어있다.)
+(단 String과 Integer 클래스의 경우 인스턴스 정보가 아닌 해당 값이 출력된다. - 클래스에서 이미 재정의 되어있기 때문이다.)
 
 제대로 출력하려면 아래와 같이 사용해야한다.
 
 ```java
-Age age = new Age(20); // 구현 생략
-System.out.println(age.toString());
+public class Student {
+    int age;
+    String name;
+
+    Student(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student(20, "Jane");
+        System.out.println(s1);
+        System.out.println(s1.toString());
+    }
+}
 ```
 
-출력이 정상적으로 데이터 값. 즉, 20이 나온다.
+출력이 정상적으로 재정의한 데이터 값. 즉, 학생의 이름인 Jane이 나온다.
 
-@Override 해서 재정의하여 사용할 수 있다.
+위 코드와 같이 @Override 해서 재정의하여 사용할 수 있다.
+
+아래는 직접 실행한 사진이다.
+
+![After Override](/assets/images/posts/ProgrammersSchool/Homework/Search_about_Object_002.png "After Override")
 
 ## 2.2. equals()
 
@@ -97,9 +141,23 @@ String과 Integer클래스에서는 equals가 재정의 되어 논리적으로 �
 
 정보를 어디에 저장할 것인지, 어디서 가져올 것인지 해시 함수를 이용하여 구현한다.
 
+
 ```java
-Age age = new Age(20); // 구현 생략
-System.out.println(age); 
+public class Student {
+    int age;
+    String name;
+
+    Student(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student(20, "Jane");
+        System.out.println(s1);
+        System.out.println(s1.toString());
+    }
+}
 ```
 
 toString 설명할때 썼던 위의 소스를 다시 가져와봤다. 위의 출력결과는  '클래스이름@해시코드'라고 했다.
@@ -112,7 +170,22 @@ toString 설명할때 썼던 위의 소스를 다시 가져와봤다. 위의 출
 getClass().getName() + '@' + Integer.toHexString(hashCode())
 ```
 
-즉 자바에서는 두 인스턴스가 같다면 hashCode() 메서드에서 반환하는 값이 같아야 한다.
+즉 자바에서는 두 인스턴스가 같은 것이라면 hashCode() 메서드에서 반환하는 값이 같아야 한다.
+
+> 인스턴스가 같다? '동일성'과 '동등성'의 차이!
+> 
+> - 동일성 : 두 개의 오브젝트가 완전히 같다
+> - 동등성 : 두 개의 오브젝트가 같은 정보를 갖고있다.
+> 
+> ```java
+> String A1 = new String("A");
+> String A2 = new String("B");
+> String A3 = A2;
+> ```
+>
+> - A1과 A2는 동등하다.
+> - A2와 A3은 동일하다.
+
 
 equals() 메서드에서 인스턴스 주소가 같은 경우 외에 주소는 다르지만 논리적으로는 같은 값을 갖는 인스턴스도 존재한다고 하며 재정의 해야한다고 했다.
 
