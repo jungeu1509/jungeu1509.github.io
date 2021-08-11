@@ -1,10 +1,10 @@
 ---
 layout: single
 title:  "SQL 고득점 Kit 풀기 - GROUP BY"
-excerpt: "프로그래머스 SQL 고득점 Kit 풀기 - GROUP BY"
+excerpt: "프로그래머스 코딩테스트 연습 SQL 고득점 Kit 풀기 - GROUP BY"
 header:
   teaser: 
-search: False
+search: False 
 permalink:
 categories: 
   - ProgrammersSchool_Homework
@@ -36,7 +36,7 @@ GROUP BY ANIMAL_TYPE
 ORDER BY ANIMAL_TYPE;
 ```
 
-## 1.2. 해설
+## 1.2. 풀이
 
 ---
 
@@ -56,8 +56,7 @@ HAVING COUNT(NAME) > 1
 ORDER BY NAME;
 ```
 
-## 2.2. 해설
-
+## 2.2. 풀이
 
 ---
 
@@ -77,7 +76,7 @@ GROUP BY HOUR
 ORDER BY HOUR;
 ```
 
-## 3.2. 해설
+## 3.2. 풀이
 
 ---
 
@@ -87,4 +86,4 @@ ORDER BY HOUR;
 
 ## 4.1. 문제풀이 
 
-## 4.2. 해설
+## 4.2. 풀이
