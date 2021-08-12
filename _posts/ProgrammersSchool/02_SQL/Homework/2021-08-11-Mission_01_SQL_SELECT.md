@@ -13,8 +13,8 @@ tags:
   - sql
   - programmers_school
   - programmers
-date:  2021-08-11 19:14:00 +0800
-last_modified_at: 2021-08-11 19:14:00 +0800
+date: 2021-08-11 19:14:00 +0900
+last_modified_at: 2021-08-12 00:33:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -51,9 +51,10 @@ ORDER BY ANIMAL_ID DESC;
 ```
 
 ## 2.2. 풀이
-1. 테이블의 원하는 속성만 불러올 수 있는가.
+1. SELECT문을 사용해 테이블의 원하는 속성만 불러올 수 있는가.
 2. 내림차순으로 데이터를 정렬할 수 았는가. 'ORDER BY 속성 DESC'
     - DESC : 내림차순
+
 ---
 
 # 3. 아픈 동물 찾기

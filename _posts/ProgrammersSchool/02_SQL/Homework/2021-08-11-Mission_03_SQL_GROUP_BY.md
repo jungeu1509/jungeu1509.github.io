@@ -13,8 +13,8 @@ tags:
   - sql
   - programmers_school
   - programmers
-date:  2021-08-11 19:30:00 +0800
-last_modified_at: 2021-08-11 19:30:00 +0800
+date:  2021-08-11 19:30:00 +0900
+last_modified_at: 2021-08-12 19:30:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -37,6 +37,10 @@ ORDER BY ANIMAL_TYPE;
 ```
 
 ## 1.2. 풀이
+1. SELECT를 사용하여 테이블의 원하는 속성만 불러온다.
+2. GROUP BY를 사용하여 원하는 속성을 그룹지을 수 있다.
+3. GROUP BY를 이용하여 만든 그룹을 COUNT를 이용하여 갯수를 셀 수 있다.
+4. AS를 사용하여 별명을 지어줄 수 있다.
 
 ---
 
@@ -57,6 +61,7 @@ ORDER BY NAME;
 ```
 
 ## 2.2. 풀이
+1. HAVING 을 사용해서 조건을 걸 수 있다. - HAVING절은 GROUP BY와 같이 사용한다. 집계함수를 가지고 조건비교를 할 때 사용한다.
 
 ---
 
@@ -77,6 +82,8 @@ ORDER BY HOUR;
 ```
 
 ## 3.2. 풀이
+1. WHERE 를 사용하여 조건에 만족하는 것만 출력한다.
+2. 시간 관련 함수를 사용할 수 있다.
 
 ---
 
