@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 10-4강"
-excerpt: "객체지향 쿼리 언어1 - 기본 문법 - 페이징 API"
+excerpt: "객체지향 쿼리 언어1 - 기본 문법 - 페이징"
 header:
   teaser: 
 search: False
@@ -13,7 +13,7 @@ tags:
   - backend
   - study
 date:  2021-12-02 00:50:00 +0900
-last_modified_at: 2021-12-02 00:50:00 +0900
+last_modified_at: 2021-12-06 23:46:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
