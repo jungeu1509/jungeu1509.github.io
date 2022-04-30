@@ -7,9 +7,9 @@ header:
 search: False
 permalink:
 categories: 
-  - Review
+  - Interview
 tags:
-  - interview
+  - Interview
 date:  2022-04-30 21:35:00 +0800
 last_modified_at: 2022-04-30 21:14:00 +0800
 toc: true
