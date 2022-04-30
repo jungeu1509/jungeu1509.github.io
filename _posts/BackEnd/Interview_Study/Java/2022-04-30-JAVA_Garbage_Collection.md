@@ -69,7 +69,7 @@ java.lang.ref 패키지에서는 더 자세히 구분했는데 더 자세히 알
 이후에 Mark되지 않은 객체들을 메모리에서 제거하는데 이러한 과정을 Sweep라고한다.
 
 - Mark : 사용되는 메모리와 사용되지 않는 메모리를 식별하는 작업
-- Sweep : Mark 단계에서 사용되지 않는 것으로 식별된 메모리를 해체하는 작업
+- Sweep : Mark 단계에서 사용되지 않는 것으로 식별된 메모리를 해체하는 작업(저장공간을 지우고(deletion) 공간을 정리(compacting)한다.)
 
 그러나 모든 메모리를 Mark & Sweep 할 경우 비효율적이므로 다른 방법이 필요했고 그 방법이 Weak generation hypothesis 이다. 
 
