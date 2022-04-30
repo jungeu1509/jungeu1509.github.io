@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "[2021 DEV CARNIVAL - 원티드(Wanted)] 코딩테스트 후기"
-excerpt: "원티드 데브카니발 코딩테스트 후기"
+title: "Allsinsa 프로젝트 제작기"
+excerpt: "Allsinsa 프로젝트 제작기"
 header:
   teaser: 
 search: true
