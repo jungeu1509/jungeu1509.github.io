@@ -4,9 +4,13 @@ permalink: /portfolio/resume/
 excerpt: ""
 last_modified_at: 
 search: False
+toc: true
+toc_sticky: true
+toc_label: "Contents"
+toc_icon: "cog"
 ---
 
-# 정은우 Eunwoo Jung - Blog
+# 정은우 Eunwoo Jung
 
 > **호기심이 많고 배우는 것을 좋아합니다.** **도전과 인내를 즐깁니다.**
 > - 임베디드 시스템 개발자로 약 2년간 일하며 소프트웨어 개발에 더욱 관심이 생겼습니다. 제가 만든 서비스를 사용자들에게 직접 제공할 수 있는 백엔드 개발자로 전향하기위해 5개월의 교육을 이수했습니다.
