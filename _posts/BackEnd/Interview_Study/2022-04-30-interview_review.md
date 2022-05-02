@@ -54,7 +54,7 @@ toc_icon: "cog"
 
 # 3. DevOps.
 
-## 3.2. Basic
+## 3.1. Basic
 
 - 데브옵스란 어떻게 생각하는지?
 - CI와 CD의 차이점은?
