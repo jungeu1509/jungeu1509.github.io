@@ -7,20 +7,17 @@ entries_layout: grid
 sidebar:
     nav: portfolio-sidebar
 search: false
-toc: true
-toc_sticky: true
-toc_label: "Contents"
-toc_icon: "cog"
 ---
 
 # 정은우 Eunwoo Jung (Kenneth Jung)
 
-> **호기심이 많고 배우는 것을 좋아합니다.** **도전과 인내를 즐깁니다.**
+> **호기심이 많고 배우는 것을 좋아합니다. 도전과 인내를 즐깁니다.**
 > - 임베디드 시스템 개발자로 약 2년간 일하며 소프트웨어 개발에 더욱 관심이 생겼습니다. 제가 만든 서비스를 사용자들에게 직접 제공할 수 있는 백엔드 개발자로 전향하기위해 5개월의 교육을 이수했습니다.
 
 > **사람과의 소통을 좋아합니다.**
 > - 꾸준한 봉사활동과 교육활동으로 소통과 설명 능력이 길러졌습니다. 개발에서 또한 저의 소통능력이 빛날 것입니다.
 
+---
 
 ## Work Experience
 
@@ -28,6 +25,8 @@ toc_icon: "cog"
     - Position : 솔루션 개발팀 - 연구원
     - 차량용 이더넷 통신 솔루션 개발, 유지보수 및 테스트
     - 프로그램 정적 및 동적분석 결과테스트 및 코드 수정 반영
+
+---
 
 ## Skill
 
@@ -43,6 +42,8 @@ Spring Boot, Spring Data JPA, AWS (EC2, RDS, S3), MySQL, JUnit
 
 Github, Linux
 
+---
+
 ## Project
 
 ### **[FILM]** 추억할 시간과 공간을 남겨 공유하는 폐쇄형 SNS
@@ -53,24 +54,26 @@ Github, Linux
 - Github 링크 : [https://github.com/jungeu1509/Team_17TOP_Film_BE](https://github.com/jungeu1509/Team_17TOP_Film_BE)
 - 담당 작업 : 게시물 열람 기능, JPA 전체 기능(게시물 DB, 사용자 DB) 적용
 
----
-
 ### **[ALLsinsa]** 쇼핑몰 무신사 클론코딩
 
 - 작업기간 : 2021.08 (2주) / 팀구성 : 백엔드 3명
 - 주요기술 : Java 17, Spring Boot, Spring Data JPA, MySQL, JUnit5
 - Github 링크 : [https://github.com/jungeu1509/BEDV1_Allsinsa](https://github.com/jungeu1509/BEDV1_Allsinsa)
-- 담당 작업 : 장바구니 기능을 RestAPI와 JPA를 이용하여 백엔드 구현
+- 담당 작업 : 장바구니 기능 RESTful API와 JPA를 이용하여 백엔드 구현
+
+---
 
 ## Education
 
-| 교육기관명 (교육기간)                            | 교육내용                                       |
-|-----------------------------------------|--------------------------------------------|
+| 교육기관명 (교육기간)                                 | 교육내용                                       |
+|----------------------------------------------|--------------------------------------------|
 | Grepp(프로그래머스) <br/>(2021.07.30 ~ 2021.12.23) | KDT - 클라우드 기반 백엔드 엔지니어링                    |
 | 한컴MDS <br/>(2019.06.10 ~ 2019.11.29)         | NVIDIA 플랫폼 기반 자율주행차 구현을 위한 SW 개발 및 실무 프로젝트 |
 | 단국대학교 공과대학 <br/>(2013.03 ~ 2019.02)          | 전자전기공학전공                                   |
 
-### Certificate
+---
+
+## Certificate
 
 - OPIC(영어) IH (2021.03.13)
 - 중등정교사2급 - 전자, 전기, 통신 (2019.02.21)
