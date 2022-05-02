@@ -4,14 +4,14 @@ title:  "백엔드 면접질문 모음"
 excerpt: "면접 후기 및 질문모음"
 header:
   teaser: 
-search: False
+search: True
 permalink:
 categories: 
   - Interview
 tags:
   - Interview
-date:  2022-04-30 21:35:00 +0800
-last_modified_at: 2022-04-30 21:14:00 +0800
+date:  2022-04-30 21:35:00 +0900
+last_modified_at: 2022-05-02 15:32:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
