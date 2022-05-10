@@ -22,8 +22,14 @@ portfolio-sidebar:
     children:
       - title: "Resume"
         url: /portfolio/resume/
-      - title: "Installation"
+      - title: "자세교정방석"
+        url: /portfolio/posture_correction_cushion/
+      - title: "[Goldenway]차량 인공지능 긴급신호처리 시스템"
+        url: /portfolio/goldenway/
+      - title: "[FILM]추억할 시간과 공간을 공유하는 폐쇄형 SNS"
         url: /portfolio/installation/
+      - title: "[Allsinsa]무신사 백엔드 클론코딩"
+        url: /portfolio/allsinsa/
 
 categories-sidebar:
   - title: categories
