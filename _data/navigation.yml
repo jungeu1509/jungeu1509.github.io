@@ -21,7 +21,7 @@ portfolio-sidebar:
   - title: Portfolio
     children:
       - title: "Portfolio"
-          url: /portfolio/
+        url: /portfolio/
       - title: "Resume"
         url: /portfolio/resume/
       - title: "- 자세교정방석"
