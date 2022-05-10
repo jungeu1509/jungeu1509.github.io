@@ -20,15 +20,15 @@ main:
 portfolio-sidebar:
   - title: Portfolio
     children:
-      - title: "Resume"
+      - title: "<Resume>"
         url: /portfolio/resume/
-      - title: "자세교정방석"
+      - title: "- 자세교정방석"
         url: /portfolio/posture_correction_cushion/
-      - title: "[Goldenway]차량 인공지능 긴급신호처리 시스템"
+      - title: "- [Goldenway]차량 인공지능 긴급신호처리 시스템"
         url: /portfolio/goldenway/
-      - title: "[FILM]추억할 시간과 공간을 공유하는 폐쇄형 SNS"
-        url: /portfolio/installation/
-      - title: "[Allsinsa]무신사 백엔드 클론코딩"
+      - title: "- [FILM]추억할 시간과 공간을 공유하는 폐쇄형 SNS"
+        url: /portfolio/film/
+      - title: "- [Allsinsa]무신사 백엔드 클론코딩"
         url: /portfolio/allsinsa/
 
 categories-sidebar:
@@ -38,11 +38,7 @@ categories-sidebar:
         url: /categories/#BackEnd
       - title: "Algorithm"
         url: /categories/#algorithm
-      - title: "Termux"
-        url: /categories/#termux
       - title: "IT Event"
         url: /categories/#IT_Event
       - title: "Blog"
         url: /categories/#Blog
-      - title: "ServoMotor"
-        url: /categories/#servomotor
