@@ -20,11 +20,11 @@ main:
 portfolio-sidebar:
   - title: Portfolio
     children:
-      - title: "Portfolio"
+      - title: "[Portfolio]"
         url: /portfolio/
-      - title: "Resume"
+      - title: "[Resume]"
         url: /portfolio/resume/
-      - title: "- 자세교정방석"
+      - title: "- [자세교정방석]"
         url: /portfolio/posture_correction_cushion/
       - title: "- [Goldenway]차량 인공지능 긴급신호처리 시스템"
         url: /portfolio/goldenway/
