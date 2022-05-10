@@ -19,15 +19,6 @@ search: false
 
 ---
 
-## Work Experience
-
-- 지티시스템(주) : 2019.12.16 ~ 2021.8.13
-    - Position : 솔루션 개발팀 - 연구원
-    - 차량용 이더넷 통신 솔루션 개발, 유지보수 및 테스트
-    - 프로그램 정적 및 동적분석 결과테스트 및 코드 수정 반영
-
----
-
 ## Skill
 
 ### 프로그래밍 언어
@@ -53,6 +44,33 @@ Github, Linux
 - 서비스 주소 : [https://film17.org](https://film17.org)
 - Github 링크 : [https://github.com/jungeu1509/Team_17TOP_Film_BE](https://github.com/jungeu1509/Team_17TOP_Film_BE)
 - 담당 작업 : 게시물 열람 기능, JPA 전체 기능(게시물 DB, 사용자 DB) 적용
+
+<table align="center">
+<tr>
+<td align="center">최초 개봉, 열람 삭제</td>
+<td align="center">마이페이지</td>
+</tr>
+<tr>
+<td>
+<img src = "https://user-images.githubusercontent.com/70435257/146948350-77e9bc78-93ed-4fb6-89ba-7d5dbfd7eaa9.gif" width="300px" height= "500px" />
+</td>
+<td>
+<img src = "https://user-images.githubusercontent.com/70435257/146948673-f42756e6-5768-4795-85fb-267736475667.gif" width="300px" height="500px" />
+</td>
+</tr>
+<tr>
+<td align="center">필름 맡기기</td>
+<td align="center">거리가 먼 필름일 경우</td>
+</tr>
+<tr>
+<td>
+<img src="https://user-images.githubusercontent.com/70435257/146948952-82abbf21-5669-4685-96af-24aa799f2516.gif" width="300px" height="500px" />
+</td>
+<td>
+<img src="https://user-images.githubusercontent.com/70435257/146949328-085df49d-e3a9-4697-b3c2-2c4005c92744.gif" width="300px" height="500px" />
+</td>
+</tr>
+</table>
 
 ### **[ALLsinsa]** 쇼핑몰 무신사 클론코딩
 
