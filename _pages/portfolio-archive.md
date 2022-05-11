@@ -39,12 +39,6 @@ Github, Linux
 
 ### **[FILM]** 추억할 시간과 공간을 남겨 공유하는 폐쇄형 SNS
 
-- 작업기간 : 2021.11.26 ~ 2021.12.23 / 팀구성 : 프론트엔드 3명, 백엔드 3명
-- 주요기술 : Java 17, Spring Boot, Spring Data JPA, OAuth2.0, MySQL, AWS(EC2, S3), GitHub Actions, JUnit5
-- 서비스 주소 : [https://film17.org](https://film17.org)
-- Github 링크 : [https://github.com/jungeu1509/Team_17TOP_Film_BE](https://github.com/jungeu1509/Team_17TOP_Film_BE)
-- 담당 작업 : 게시물 열람 기능, JPA 전체 기능(게시물 DB, 사용자 DB) 적용
-
 <table align="center">
 <tr>
 <td align="center">최초 개봉, 열람 삭제</td>
@@ -68,6 +62,14 @@ Github, Linux
 </tr>
 </table>
 
+- 작업기간 : 2021.11.26 ~ 2021.12.23 / 팀구성 : 프론트엔드 3명, 백엔드 3명
+- 주요기술 : Java 17, Spring Boot, Spring Data JPA, OAuth2.0, MySQL, AWS(EC2, S3), GitHub Actions, JUnit5
+- 서비스 주소 : [https://film17.org](https://film17.org)
+- Github 링크 : [https://github.com/jungeu1509/Team_17TOP_Film_BE](https://github.com/jungeu1509/Team_17TOP_Film_BE)
+- 담당 작업 : 게시물 열람 기능, JPA 전체 기능(게시물 DB, 사용자 DB) 적용
+
+---
+
 ### **[ALLsinsa]** 쇼핑몰 무신사 클론코딩
 
 - 작업기간 : 2021.08 (2주) / 팀구성 : 백엔드 3명
@@ -77,18 +79,8 @@ Github, Linux
 
 ---
 
-## Education
+## Resume
 
-| 교육기관명 (교육기간)                                 | 교육내용                                       |
-|----------------------------------------------|--------------------------------------------|
-| Grepp(프로그래머스) <br/>(2021.07.30 ~ 2021.12.23) | KDT - 클라우드 기반 백엔드 엔지니어링                    |
-| 한컴MDS <br/>(2019.06.10 ~ 2019.11.29)         | NVIDIA 플랫폼 기반 자율주행차 구현을 위한 SW 개발 및 실무 프로젝트 |
-| 단국대학교 공과대학 <br/>(2013.03 ~ 2019.02)          | 전자전기공학전공                                   |
+저의 이력은 아래 링크를 누르면 보실 수 있습니다.
 
----
-
-## Certificate
-
-- OPIC(영어) IH (2021.03.13)
-- 중등정교사2급 - 전자, 전기, 통신 (2019.02.21)
-- 직업능력개발훈련교사 - 로봇개발 등 (2019.03.07)
+[want to see my Resume? Click!](/portfolio/resume/)
