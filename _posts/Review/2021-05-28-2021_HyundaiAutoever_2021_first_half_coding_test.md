@@ -4,7 +4,7 @@ title:  "[현대오토에버] 2021 상반기 인성검사 및 코딩테스트 �
 excerpt: "현대오토에버 2021 상반기 인성검사 및 코딩테스트 후기"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - Review
