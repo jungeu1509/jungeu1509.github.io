@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "C++ STL priority_queue 우선순위 큐 사용법"
-excerpt: "C++ stl을 사용한 우선순위 큐 내용정리."
+excerpt: "C++ stl을 사용한 우선순위 큐 내용정리. How to use priority_queue in C++ stl"
 header:
   teaser:
 search: true
@@ -13,22 +13,17 @@ tags:
   - priority
   - queue
   - C++
-date:  2021-05-27 22:04:00 +0800
-last_modified_at: 2021-05-27 22:04:00 +0800
+date:  2021-05-27 22:04:00 +0900
+last_modified_at: 2022-05-11 17:25:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 ---
----
-
-C++ stl을 사용한 우선순위 큐 정리.
-
-How to use priority_queue in C++ stl
-
----
 
 # 0. 우선순위 큐(Priority Queue)란?
+
+**(이 글은 Queue와 Vector의 개념을 알고오셔야합니다!)**
 
 Priority Queue는 Container의 한 종류이며
 
@@ -37,8 +32,6 @@ Priority Queue는 Container의 한 종류이며
 설정된 우선순위에 따라 가장 Top을 유지하고 먼저 Out(pop) 된다.
 
 내부적으로 Heap의 자료구조를 갖고있다.
-
-( 이 글은 queue와 vector의 개념을 알고오셔야합니다. )
 
 # 1. 기본사용법
 
@@ -77,11 +70,13 @@ Priority Queue는 Container의 한 종류이며
 
 밑에서 더 설명하겠지만, 간단히 말하면 우선순위 큐의 경우 구조체를 많이 삽입하게 된다.
 
-push의 경우 단순히 queue에 값을 넣어준다. 다시 말하면 오브젝트로 제작후 삽입하므로 불필요한 복사가 많이 일어난다.
+push의 경우 단순히 queue에 값을 넣어준다. 다시 말하면 오브젝트로 제작후 삽입해야하므로 불필요한 복사가 많이 일어난다.
 
 emplace의 경우 오브젝트를 생성하지 않고 바로 값을 넣는다. 즉, copy와 constructor가 합쳐진 것이라 볼 수 있다.
 
-참고 및 출처 : https://lhy0.tistory.com/3
+아래 예시코드로 두개의 사용법과 차이점을 자세히 살펴보자.
+
+참고 및 출처 : [https://lhy0.tistory.com/3](https://lhy0.tistory.com/3)
 
 ``` c++
 #include <queue> // 우선순위 큐를 위한 라이브러리
@@ -340,13 +335,8 @@ int main() {
 # 4. 참고 및 출처
 
 1. [cplusplus - priority_queue reference](http://www.cplusplus.com/reference/queue/priority_queue/swap/) (http://www.cplusplus.com/reference/queue/priority_queue/swap/)
-
-
 2. [lhy0 - priority_queue emplace() vs push()](https://lhy0.tistory.com/3) (https://lhy0.tistory.com/3)
-
 3. [프로그래밍 - [C++ STL] Priority_queue 사용법](https://kbj96.tistory.com/15) (https://kbj96.tistory.com/15)
-
 4. [geeksforgeeks - priority_queue emplace() in C++ STL](https://www.geeksforgeeks.org/priority_queue-emplace-in-cpp-stl/) (https://www.geeksforgeeks.org/priority_queue-emplace-in-cpp-stl/)
-
 5. [구사과 - STL priority queue 활용법](https://koosaga.com/9) (https://koosaga.com/9)
    
