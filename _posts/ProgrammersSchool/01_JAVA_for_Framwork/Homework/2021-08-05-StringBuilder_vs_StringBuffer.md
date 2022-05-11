@@ -4,7 +4,7 @@ title:  "StringBuffer vs. StringBuilder"
 excerpt: "StringBuffer와 StringBuilder 차이점"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - ProgrammersSchool_Homework
@@ -12,8 +12,8 @@ tags:
   - coding
   - java
   - programmers_school
-date:  2021-08-05 18:00:00 +0800
-last_modified_at: 2021-08-05 18:11:00 +0800
+date:  2021-08-05 18:00:00 +0900
+last_modified_at: 2021-08-05 18:11:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

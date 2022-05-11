@@ -4,7 +4,7 @@ title:  "SQL Types"
 excerpt: "SQL 문법들 중 Types 설명"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - ProgrammersSchool_TIL

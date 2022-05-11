@@ -4,7 +4,7 @@ title:  "SQL Insert, Update, Delete"
 excerpt: "SQL 문법들 중 Insert, Update, Delete 설명"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - ProgrammersSchool_TIL

@@ -4,7 +4,7 @@ title:  "Collection Overview"
 excerpt: "컬렉션 개요"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - ProgrammersSchool_TIL
@@ -13,8 +13,8 @@ tags:
   - collection
   - java
   - til
-date:  2021-08-07 23:30:00 +0800
-last_modified_at: 2021-08-11 13:30:00 +0800
+date:  2021-08-07 23:30:00 +0900
+last_modified_at: 2021-08-11 13:30:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

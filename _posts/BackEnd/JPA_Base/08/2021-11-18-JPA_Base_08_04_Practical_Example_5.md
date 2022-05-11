@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 8-4강"
 excerpt: "실전 예제5 - 연관관계 관리"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

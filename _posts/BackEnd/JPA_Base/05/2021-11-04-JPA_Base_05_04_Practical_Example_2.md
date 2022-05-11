@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 5-4강"
 excerpt: "실전 예제2 - 연관관계 매핑 시작"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd
@@ -12,8 +12,8 @@ tags:
   - java
   - backend
   - study
-date:  2021-11-03 22:30:00 +0800
-last_modified_at: 2021-11-03 22:30:00 +0800
+date:  2021-11-03 22:30:00 +0900
+last_modified_at: 2021-11-03 22:30:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

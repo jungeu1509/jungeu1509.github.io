@@ -4,7 +4,7 @@ title:  "SQL SELECT, WHERE, GROUP BY, HAVING"
 excerpt: "SQL 문법들 중 SELECT, WHERE, GROUP BY, HAVING 설명"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - ProgrammersSchool_TIL

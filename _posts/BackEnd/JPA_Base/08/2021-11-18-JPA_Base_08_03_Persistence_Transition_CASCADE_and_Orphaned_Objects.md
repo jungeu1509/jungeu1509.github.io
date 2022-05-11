@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 8-3강"
 excerpt: "프록시와 연관관계 관리 - 영속성 전이(CASCADE)와 고아 객체"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

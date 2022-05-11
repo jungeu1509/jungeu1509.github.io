@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 2-1강"
 excerpt: "JPA 시작하기 - 프로젝트 생성"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd
@@ -12,8 +12,8 @@ tags:
   - java
   - backend
   - study
-date:  2021-10-18 23:50:00 +0800
-last_modified_at: 2021-10-18 23:50:00 +0800
+date:  2021-10-18 23:50:00 +0900
+last_modified_at: 2021-10-18 23:50:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

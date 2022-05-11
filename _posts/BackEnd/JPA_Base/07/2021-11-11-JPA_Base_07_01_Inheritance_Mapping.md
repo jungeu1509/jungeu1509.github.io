@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 7-1강"
 excerpt: "고급 매핑 - 상속관계 매핑"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

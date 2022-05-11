@@ -4,7 +4,7 @@ title:  "SQL 고득점 Kit 풀기 - String, Date"
 excerpt: "프로그래머스 코딩테스트 연습 SQL 고득점 Kit 풀기 - String, Date"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - ProgrammersSchool_Homework

@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 6-1강"
 excerpt: "다양한 연관관계 매핑 - 다대일 [N:1]"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

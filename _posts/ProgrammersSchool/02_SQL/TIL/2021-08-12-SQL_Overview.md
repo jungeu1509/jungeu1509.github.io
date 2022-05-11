@@ -4,7 +4,7 @@ title:  "SQL Overview"
 excerpt: "SQL 첫걸음"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - ProgrammersSchool_TIL

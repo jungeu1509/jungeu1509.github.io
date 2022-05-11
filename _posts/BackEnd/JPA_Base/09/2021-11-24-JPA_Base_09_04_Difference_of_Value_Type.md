@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 9-4강"
 excerpt: "값 타입 - 값 타입의 비교"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 5-2강"
 excerpt: "양방향 연관관계와 연관관계의 주인 1 - 기본"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd
@@ -12,8 +12,8 @@ tags:
   - java
   - backend
   - study
-date:  2021-11-03 21:00:00 +0800
-last_modified_at: 2021-11-03 21:00:00 +0800
+date:  2021-11-03 21:00:00 +0900
+last_modified_at: 2021-11-03 21:00:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

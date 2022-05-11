@@ -14,8 +14,8 @@ tags:
   - vscode
   - linux
   - 갤럭시탭
-date:  2021-02-13 22:12:00 +0800
-last_modified_at: 2021-03-05 18:40:00 +0800
+date:  2021-02-13 22:12:00 +0900
+last_modified_at: 2021-03-05 18:40:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

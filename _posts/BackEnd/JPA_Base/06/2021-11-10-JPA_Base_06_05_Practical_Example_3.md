@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 6-5강"
 excerpt: "실전 예제3 - 다양한 연관관계 매핑"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

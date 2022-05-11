@@ -4,7 +4,7 @@ title:  "[스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB �
 excerpt: "회원 리포지토리 테스트 케이스 작성"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd
@@ -12,8 +12,8 @@ tags:
   - java
   - backend
   - study
-date:  2021-06-15 20:30:00 +0800
-last_modified_at: 2021-06-15 20:30:00 +0800
+date:  2021-06-15 20:30:00 +0900
+last_modified_at: 2021-06-15 20:30:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

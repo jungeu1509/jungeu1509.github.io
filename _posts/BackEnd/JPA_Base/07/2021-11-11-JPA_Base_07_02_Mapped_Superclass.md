@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 7-2강"
 excerpt: "고급 매핑 - Mapped Superclass - 매핑 정보 상속"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

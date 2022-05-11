@@ -3,7 +3,7 @@ title: "Resume"
 permalink: /portfolio/resume/
 excerpt: ""
 last_modified_at: 
-search: False
+search: false
 toc: true
 toc_sticky: true
 toc_label: "Contents"

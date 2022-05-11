@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 3-4강"
 excerpt: "영속성 관리 - 내부 동작 방식 - 준영속"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd
@@ -12,8 +12,8 @@ tags:
   - java
   - backend
   - study
-date:  2021-10-20 23:20:00 +0800
-last_modified_at: 2021-10-20 23:20:00 +0800
+date:  2021-10-20 23:20:00 +0900
+last_modified_at: 2021-10-20 23:20:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

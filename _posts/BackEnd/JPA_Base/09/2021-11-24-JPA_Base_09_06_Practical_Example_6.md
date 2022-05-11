@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 9-6강"
 excerpt: "실전 예제6 - 값 타입 매핑"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

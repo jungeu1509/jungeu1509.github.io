@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 4-3강"
 excerpt: "엔티티 매핑 - 필드와 컬럼 매핑"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd
@@ -12,8 +12,8 @@ tags:
   - java
   - backend
   - study
-date:  2021-10-27 22:33:00 +0800
-last_modified_at: 2021-10-27 22:33:00 +0800
+date:  2021-10-27 22:33:00 +0900
+last_modified_at: 2021-10-27 22:33:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

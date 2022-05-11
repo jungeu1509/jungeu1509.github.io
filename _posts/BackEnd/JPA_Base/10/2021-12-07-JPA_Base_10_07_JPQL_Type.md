@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 10-7강"
 excerpt: "객체지향 쿼리 언어1 - 기본 문법 - JPQL 타입 표현과 기타식"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

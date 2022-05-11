@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 11-2강"
 excerpt: "객체지향 쿼리 언어2 - 중급 문법 - 페치 조인 1 - 기본"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd

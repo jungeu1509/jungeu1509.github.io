@@ -4,7 +4,7 @@ title:  "[자바 ORM 표준 JPA 프로그래밍 - 기본편] 10-2강"
 excerpt: "객체지향 쿼리 언어1 - 기본 문법 - 기본문법과 쿼리"
 header:
   teaser: 
-search: False
+search: false
 permalink:
 categories: 
   - BackEnd
