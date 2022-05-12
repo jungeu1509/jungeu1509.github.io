@@ -84,3 +84,6 @@ Github, Linux
 저의 이력은 아래 링크를 누르면 보실 수 있습니다.
 
 [want to see my Resume? Click!](/portfolio/resume/)
+
+---
+
