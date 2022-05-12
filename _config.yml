@@ -318,7 +318,7 @@ defaults:
       path: "_portfolio"
       type: portfolio
     values:
-      layout: wide
+      layout: double
       read_time: false
       author_profile: true
       share: false
