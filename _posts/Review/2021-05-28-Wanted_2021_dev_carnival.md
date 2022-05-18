@@ -7,7 +7,7 @@ header:
 search: true
 permalink:
 categories: 
-  - IT_Event
+  - Review
 tags:
   - coding
   - test

@@ -40,7 +40,5 @@ categories-sidebar:
         url: /categories/#BackEnd
       - title: "Algorithm"
         url: /categories/#algorithm
-      - title: "IT Event"
-        url: /categories/#IT_Event
       - title: "Blog"
         url: /categories/#Blog
