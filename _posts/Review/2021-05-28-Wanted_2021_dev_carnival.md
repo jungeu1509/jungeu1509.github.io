@@ -22,7 +22,7 @@ toc_icon: "cog"
 
 # 1. 원티드의 2021 DEV CARNIVAL
 
-![1번그림-메인](../../assets/images/posts/IT_Event/20210528/1.jpg)
+![1번그림-메인](../../assets/images/posts/Review/20210528/1.jpg)
 
 원티드에서 진행한 2021 DEV CARNIVAL을 참여했다.
 
@@ -30,13 +30,13 @@ toc_icon: "cog"
 
 # 2. REWARD
 
-![2번그림-reward](../../assets/images/posts/IT_Event/20210528/2.jpg)
+![2번그림-reward](../../assets/images/posts/Review/20210528/2.jpg)
 
 금손/은손 뱃지를 부여해 준다고 한다.
 
 참여자 유의사항은 아래그림과 같았다.
 
-![3번그림-주의](../../assets/images/posts/IT_Event/20210528/3.jpg)
+![3번그림-주의](../../assets/images/posts/Review/20210528/3.jpg)
 
 ---
 
