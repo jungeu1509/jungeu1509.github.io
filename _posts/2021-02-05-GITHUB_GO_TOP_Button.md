@@ -95,12 +95,14 @@ custom.html이 없을경우 1.1.2.를 따라하시면 됩니다.
 ### 1.1.2. _layouts/defalt.html에 코드 넣기
 
 * 수정 전
+  
 ```html
 <div id="footer" class="page__footer">
   <footer>
 ```
 
 * 수정 후
+    
 ```html
 <div id="footer" class="page__footer">
 <aside class="go_to_top_butten">
