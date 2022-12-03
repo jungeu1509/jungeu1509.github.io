@@ -37,6 +37,15 @@ Github, Linux
 
 ## Project
 
+### **[The Parabole]** 다양한 이벤트진행 가능한 오픈마켓
+
+- 작업기간 : 2022.09.05 ~ 2022.11.28(3달) / 팀구성 : 백엔드 5명(모두 풀스택으로 참여)
+- 주요기술 : Java 17, Spring Boot, Spring Data JPA, MySQL, AWS(EC2, S3, Route53), Kafka, Jenkins, JUnit4, Next.js, React, Axios, emotion, TailwindCss
+- Github 링크 : [https://github.com/Lotte-Feelmycode](https://github.com/Lotte-Feelmycode)
+- 담당 작업 : 상품 목록 구현(풀스택), 장바구니 API일부 제작(백엔드), 장바구니 및 주문결제 페이지 제작(프론트엔드), 페이지 반응형 적용(프론트엔드)
+
+---
+
 ### **[FILM]** 추억할 시간과 공간을 남겨 공유하는 폐쇄형 SNS
 
 <table align="center">
@@ -62,7 +71,7 @@ Github, Linux
 </tr>
 </table>
 
-- 작업기간 : 2021.11.26 ~ 2021.12.23 / 팀구성 : 프론트엔드 3명, 백엔드 3명
+- 작업기간 : 2021.11.26 ~ 2021.12.23(1달) / 팀구성 : 프론트엔드 3명, 백엔드 3명
 - 주요기술 : Java 17, Spring Boot, Spring Data JPA, OAuth2.0, MySQL, AWS(EC2, S3), GitHub Actions, JUnit5
 - 서비스 주소 : [https://film17.org](https://film17.org)
 - Github 링크 : [https://github.com/jungeu1509/Team_17TOP_Film_BE](https://github.com/jungeu1509/Team_17TOP_Film_BE)
