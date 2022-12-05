@@ -22,7 +22,7 @@ toc_icon: "cog"
 
 # The Parabole
 
-![더 파라볼래 로고](/assets/images/posts/Review/The_Parabole/1/parabole.png)
+![더 파라볼래 로고](/assets/images/posts/Review/The_Parabole/parabole.png)
 
 총 5명의 인원이 참여했으며, 약 3달간 구현된 쇼핑몰입니다.
 
