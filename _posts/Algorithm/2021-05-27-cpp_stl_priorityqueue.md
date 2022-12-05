@@ -5,6 +5,7 @@ excerpt: "C++ stl을 사용한 우선순위 큐 내용정리. How to use priorit
 header:
   teaser:
 search: true
+layout: post-single
 permalink: /algorithm/use-priorityqueue/
 categories: 
   - Algorithm
@@ -14,7 +15,7 @@ tags:
   - queue
   - C++
 date:  2021-05-27 22:04:00 +0900
-last_modified_at: 2022-05-11 17:25:00 +0900
+last_modified_at: 2022-12-05 21:19:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
