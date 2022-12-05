@@ -13,17 +13,11 @@ tags:
   - project
   - review
 date:  2022-12-03 15:08:00 +0900
-last_modified_at: 2022-12-05 18:51:00 +0900
+last_modified_at: 2022-12-05 19:48:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
----
-
-이 프로젝트는 롯데e커머스 채용연계 교육생과정(비트교육센터)을 이수하며 제작한 프로젝트입니다.
-
-[롯데e커머스 채용연계형 교육생모집 설명 글 링크](https://story.lotteon.com/it%ea%b0%9c%eb%b0%9c-%ec%b1%84%ec%9a%a9%ec%97%b0%ea%b3%84%ed%98%95-%ea%b5%90%ec%9c%a1%ec%83%9d%ec%9d%84-%eb%aa%a8%ec%a7%91%ed%95%a9%eb%8b%88%eb%8b%a4/)
-
 ---
 
 # The Parabole
@@ -39,10 +33,6 @@ toc_icon: "cog"
 다양한 기획들이 등장했다. 프로젝트를 바탕으로 팀 배정을 하겠다고 했기 때문에 각자 하고싶은 것들이 많았다. 
 
 딥러닝 혹은 AI를 적용해보고 싶은 팀원도 있었고, 주문 및 배송 API를 가져와서 적용해보자는 팀원도 있었다. 우선 다들 취준생이고 금액적인 부담이 있었기 때문에 폭넓은 선택을 선뜻하진 못했다.
-
-![1번그림-기획](/assets/images/posts/Review/The_Parabole/1/1.png)
-
-위 이미지는 실제 회의록으로 적었던 내용이다.
 
 많은 내용이 있었지만 산발적 아이디어 선택보다는 스토리가 있었으면 좋겠다는 전체적인 팀의 의견이 있었다. 
 
