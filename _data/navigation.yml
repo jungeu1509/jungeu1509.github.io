@@ -32,6 +32,8 @@ portfolio-sidebar:
         url: /portfolio/film/
       - title: "- [Allsinsa]무신사 백엔드 클론코딩"
         url: /portfolio/allsinsa/
+      - title: "- [The Parabole]무신사 백엔드 클론코딩"
+        url: /portfolio/the-parabole/
 
 categories-sidebar:
   - title: categories
