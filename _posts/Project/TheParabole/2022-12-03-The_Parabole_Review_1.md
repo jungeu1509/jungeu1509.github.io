@@ -5,6 +5,7 @@ excerpt: "The Parabole 프로젝트 제작기-1 (기획 및 설계)"
 header:
   teaser: 
 search: false
+layout: post-single
 permalink:
 categories: 
   - Project
