@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "The Parabole 프로젝트 제작기-1 (기획 및 설계)"
 excerpt: "The Parabole 프로젝트 제작기-1 (기획 및 설계)"
 header:
@@ -14,7 +13,7 @@ tags:
   - project
   - review
 date:  2022-12-03 15:08:00 +0900
-last_modified_at: 2022-12-05 19:48:00 +0900
+last_modified_at: 2022-12-14 18:06:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -25,9 +24,16 @@ toc_icon: "cog"
 
 ![더 파라볼래 로고](/assets/images/posts/Review/The_Parabole/parabole.png)
 
+[프로젝트 소스](https://github.com/Lotte-Feelmycode)
+
 총 5명의 인원이 참여했으며, 약 3달간 구현된 쇼핑몰입니다.
 
 대용량 트래픽을 체험해보고자 제작된 프로젝트입니다.
+
+1. [The Parabole 프로젝트 제작기-1 (기획 및 설계)](https://jungeu1509.github.io/project/The_Parabole_Review_1/) **(현재 글)**
+2. [The Parabole 프로젝트 제작기-2 (컨벤션 설정 및 1차 구현)](https://jungeu1509.github.io/project/The_Parabole_Review_2/)
+
+글은 더 추가 예정입니다.
 
 # 기획단계
 
