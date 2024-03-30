@@ -22,6 +22,11 @@ toc_icon: "cog"
 
 # Event Driven Architecture 적용
 
+해당글은 2023 우아콘 아래영상을 보고 인상깊어 일부 정리한 내용입니다.
+
+배민스토어에 최신 기술 한방에 때려넣기: Kotlin, Spring WebFlux, EDA
+링크 : https://youtu.be/pRpryoQphXQ?si=2IPyXY-KpLTLDo2z
+
 ## 배민스토어 전시 도메인
 
 배민스토어 전시 도메인 

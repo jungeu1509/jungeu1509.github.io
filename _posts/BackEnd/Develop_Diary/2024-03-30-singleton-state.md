@@ -108,3 +108,9 @@ public class ServiceClass {
 특히 디자인 패턴을 적용하여 개발해야한다는 생각에 바보같이 기본적인 내용도 망각하다니...
 
 스프링에 대한 특징이나 java에 대한 특징을 다시 좀 더 공부해야 하겠다.
+
+## 참고자료 
+
+- https://itmining.tistory.com/20 [에반, 어른반:티스토리]
+- https://velog.io/@jaeeunxo1/spring-singleton
+[lacblueeun, 스프링 핵심원리 - 싱글톤패턴]
