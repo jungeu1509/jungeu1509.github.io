@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "배민스토어에 최신 기술 한방에 때려넣기: EDA"
+title:  "[우아콘2023] 배민스토어에 최신 기술 한방에 때려넣기: EDA"
 excerpt: "EDA 정리"
 header:
   teaser: 
@@ -25,7 +25,7 @@ toc_icon: "cog"
 해당글은 2023 우아콘 아래영상을 보고 인상깊어 일부 정리한 내용입니다.
 
 배민스토어에 최신 기술 한방에 때려넣기: Kotlin, Spring WebFlux, EDA
-링크 : https://youtu.be/pRpryoQphXQ?si=2IPyXY-KpLTLDo2z
+링크 : [https://youtu.be/pRpryoQphXQ?si=2IPyXY-KpLTLDo2z](https://youtu.be/pRpryoQphXQ?si=2IPyXY-KpLTLDo2z)
 
 ## 배민스토어 전시 도메인
 

@@ -1,15 +1,18 @@
 ---
 layout: single
-title:  "Singleton 패턴에서 변수는 공유된다."
+title:  "[개발일지] Singleton 패턴에서 변수는 공유된다"
 excerpt: "개발 실수 모음"
 header:
   teaser: 
 search: false
 permalink:
 categories: 
-  - Backend
+  - Develop Diary
 tags:
   - Backend
+  - Develop Diary
+  - Spring
+  - Java
 date:  2024-03-30 15:03:00 +0900
 last_modified_at: 2024-03-30 15:03:00 +0900
 toc: true
@@ -111,6 +114,6 @@ public class ServiceClass {
 
 ## 참고자료 
 
-- https://itmining.tistory.com/20 [에반, 어른반:티스토리]
-- https://velog.io/@jaeeunxo1/spring-singleton
+- [https://itmining.tistory.com/20](https://itmining.tistory.com/20) [에반, 어른반:티스토리]
+- [https://velog.io/@jaeeunxo1/spring-singleton](https://velog.io/@jaeeunxo1/spring-singleton)
 [lacblueeun, 스프링 핵심원리 - 싱글톤패턴]
