@@ -1,4 +1,4 @@
----
+i---
 title: "Portfolio"
 layout: collection
 permalink: /portfolio/
@@ -12,10 +12,10 @@ search: false
 # 정은우 Eunwoo Jung (Kenneth Jung)
 
 > **호기심이 많고 배우는 것을 좋아합니다. 도전과 인내를 즐깁니다.**
-> - 임베디드 시스템 개발자로 약 2년간 일하며 소프트웨어 개발에 더욱 관심이 생겼습니다. 제가 만든 서비스를 사용자들에게 직접 제공할 수 있는 백엔드 개발자로 전향하기위해 5개월의 교육을 이수했습니다.
+> - 웹개발 중 백엔드를 주로 하지만 프론트엔드와 인프라 등의 공부도 꾸준히 하고 있습니다. 사이드 프로젝트 중 백엔드와 프론트엔드도 작업하며 필요 정보를 공부합니다. 현재 재직중인 '롯데이커머스'에서는 java spirngboot를 사용하고 vue2를 사용하는 풀스택 개발자입니다.
 
 > **사람과의 소통을 좋아합니다.**
-> - 꾸준한 봉사활동과 교육활동으로 소통과 설명 능력이 길러졌습니다. 개발에서 또한 저의 소통능력이 빛날 것입니다.
+> - 대학시절 봉사활동과 교육활동으로 소통과 설명 능력이 길러졌습니다. 졸업 후에도 꾸준한 악기연주를 활동 하고있습니다. 합주동호회 활동으로 다양한 분야의 여러사람들과 합주하고 공연을 기획 진행하며 사람들과의 화합 및 협동에 특화되어있습니다.
 
 ---
 
@@ -23,21 +23,32 @@ search: false
 
 ### 프로그래밍 언어
 
-Java, C, C++, Python
+Java, C, C++, JavaScript, Python
 
 ### 백엔드
 
-Spring Boot, Spring Data JPA, AWS (EC2, RDS, S3), MySQL, JUnit
+Spring Boot, MyBatis, AWS(EC2, RDS, S3), MySQL, Spring Data JPA, JUnit
 
 ### ETC.
 
-Github, Linux
+Github, Linux, Vue2
 
 ---
 
 ## Project
 
-### **[The Parabole]** 다양한 이벤트진행 가능한 오픈마켓
+### **[롯데온 엘스탬프]** 롯데 계열사 특정금액 이상 구매시 다양한 스탬프 적립
+|롯데온 엘스탬프 미션 및 리워드|롯데온 엘스탬프 캐릭터 상호작용|
+|---|---|
+|![롯데온 엘스탬프 미션 및 리워드](/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프미션및리워드.gif)|![롯데온 엘스탬프 캐릭터](/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프캐릭터.gif)|
+
+- 기간 : 2022.09.05 ~ 재직중 / 팀구성 : 파트원 4명(모두 풀스택으로 참여)
+- 주요기술 : Java 8, Spring Boot, Mybatis, MySQL, AWS(EC2, S3, Route53), Kafka, Vue2, Redis
+- 담당 작업 : 스탬프 적립 로직 개선작업(백엔드), 리워드 응모 및 당첨로직 내재화(솔루션제거) 및 개선 작업(풀스택), 리워드 중복당첨 방어로직(백엔드), 엘스탬프 BO 기능 추가 및 개선작업(풀스택), 스탬프 데이터 정합성 모니터링 로직 개선(백엔드), 데이터 추출 및 보정작업, 
+
+---
+
+### **[The Parabole]** 셀러가 다양한 이벤트진행 가능한 오픈마켓
 
 - 작업기간 : 2022.09.05 ~ 2022.11.28(3달) / 팀구성 : 백엔드 5명(모두 풀스택으로 참여)
 - 주요기술 : Java 17, Spring Boot, Spring Data JPA, MySQL, AWS(EC2, S3, Route53), Kafka, Jenkins, JUnit4, Next.js, React, Axios, emotion, TailwindCss
@@ -92,7 +103,7 @@ Github, Linux
 
 저의 이력은 아래 링크를 누르면 보실 수 있습니다.
 
-[want to see my Resume? Click!](/portfolio/resume/)
+[Click here!](/portfolio/resume/)
 
 ---
 

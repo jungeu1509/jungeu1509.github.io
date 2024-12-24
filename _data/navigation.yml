@@ -24,16 +24,20 @@ portfolio-sidebar:
         url: /portfolio/
       - title: "Resume"
         url: /portfolio/resume/
-      - title: "- [자세교정방석]"
-        url: /portfolio/posture_correction_cushion/
-      - title: "- [Goldenway]차량 인공지능 긴급신호처리 시스템"
-        url: /portfolio/goldenway/
-      - title: "- [FILM]추억할 시간과 공간을 공유하는 폐쇄형 SNS"
-        url: /portfolio/film/
-      - title: "- [Allsinsa]무신사 백엔드 클론코딩"
-        url: /portfolio/allsinsa/
-      - title: "- [The Parabole]무신사 백엔드 클론코딩"
-        url: /portfolio/the-parabole/
+      # - title: "- [롯데이커머스] 자세히보기"
+      #   url: /portfolio/lotte-ecommerce/
+      # - title: "- [지티시스템] 자세히보기"
+      #   url: /portfolio/gtsystem/
+      # - title: "- [The Parabole]셀러맞춤 이벤트마켓"
+      #   url: /portfolio/the-parabole/
+      # - title: "- [Allsinsa]무신사 백엔드 클론코딩"
+      #   url: /portfolio/allsinsa/
+      # - title: "- [FILM]추억할 시간과 공간을 공유하는 폐쇄형 SNS"
+      #   url: /portfolio/film/
+      # - title: "- [Goldenway]차량 인공지능 긴급신호처리 시스템"
+      #   url: /portfolio/goldenway/
+      # - title: "- [자세교정방석]"
+      #   url: /portfolio/posture_correction_cushion/
 
 categories-sidebar:
   - title: categories
