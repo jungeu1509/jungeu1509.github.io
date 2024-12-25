@@ -46,10 +46,10 @@ Github, Linux, Vue2
 </tr>
 <tr>
 <td>
-<img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프미션및리워드.gif"width="210px" height="350px" />
+<img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프미션및리워드.gif" width="210px" height="350px" />
 </td>
 <td>
-<img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프캐릭터.gif"width="210px" height="350px" />
+<img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프캐릭터.gif" width="210px" height="350px" />
 </td>
 </tr>
 </table>
