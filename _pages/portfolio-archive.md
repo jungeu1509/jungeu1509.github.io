@@ -40,18 +40,22 @@ Github, Linux, Vue2
 ### **[롯데온 엘스탬프]** 롯데 계열사 특정금액 이상 구매시 다양한 스탬프 적립
 
 <table align="center">
-<tr>
-<td align="center">롯데온 엘스탬프 미션 및 리워드</td>
-<td align="center">롯데온 엘스탬프 캐릭터</td>
-</tr>
-<tr>
-<td>
-<img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프미션및리워드.gif" width="210px" height="350px" />
-</td>
-<td>
-<img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프캐릭터.gif" width="210px" height="350px" />
-</td>
-</tr>
+    <tr>
+        <td align="center">롯데온 엘스탬프 미션 및 리워드</td>
+        <td align="center">롯데온 엘스탬프 캐릭터</td>
+    </tr>
+    <tr>
+        <td>
+            <div width="210px" height="350px" overflow="hidden">
+                <img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프미션및리워드.gif" />
+            </div>
+        </td>
+        <td>
+            <div width="210px" height="350px" overflow="hidden">
+                <img src="/assets/images/posts/portfolio/e-commerce/롯데온-엘스탬프캐릭터.gif"/>
+            </div>
+        </td>
+    </tr>
 </table>
 
 - 기간 : 2022.09.05 ~ 재직중 / 팀구성 : 파트원 4명(모두 풀스택으로 참여)
