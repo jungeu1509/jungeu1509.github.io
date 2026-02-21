@@ -37,7 +37,9 @@ Github, Linux, Vue2
 
 ## Project
 
-### **[롯데온 엘스탬프]** 롯데 계열사 특정금액 이상 구매시 다양한 스탬프 적립
+### 롯데 이커머스
+
+#### **[롯데온 엘스탬프]** 롯데 계열사 특정금액 이상 구매시 다양한 스탬프 적립
 
 <table align="center">
     <tr>
@@ -62,9 +64,13 @@ Github, Linux, Vue2
 - 주요기술 : Java 8, Spring Boot, Mybatis, MySQL, AWS(EC2, S3, Route53), Kafka, Vue2, Redis
 - 담당 작업 : 스탬프 적립 로직 개선작업(백엔드), 리워드 응모 및 당첨로직 내재화(솔루션제거) 및 개선 작업(풀스택), 리워드 중복당첨 방어로직(백엔드), 엘스탬프 BO 기능 추가 및 개선작업(풀스택), 스탬프 데이터 정합성 모니터링 로직 개선(백엔드), 데이터 추출 및 보정작업, 
 
+- [경력기술서 자세히 보기](/portfolio/02-Lotte-Ecommerce/02-01-Lotte_Ecommerce)
+
 ---
 
-### **[The Parabole]** 셀러가 다양한 이벤트진행 가능한 오픈마켓
+### 개인 프로젝트
+
+#### **[The Parabole]** 셀러가 다양한 이벤트진행 가능한 오픈마켓
 
 - 작업기간 : 2022.09.05 ~ 2022.11.28(3달) / 팀구성 : 백엔드 5명(모두 풀스택으로 참여)
 - 주요기술 : Java 17, Spring Boot, Spring Data JPA, MySQL, AWS(EC2, S3, Route53), Kafka, Jenkins, JUnit4, Next.js, React, Axios, emotion, TailwindCss
@@ -73,7 +79,7 @@ Github, Linux, Vue2
 
 ---
 
-### **[FILM]** 추억할 시간과 공간을 남겨 공유하는 폐쇄형 SNS
+#### **[FILM]** 추억할 시간과 공간을 남겨 공유하는 폐쇄형 SNS
 
 <table align="center">
 <tr>
@@ -106,7 +112,7 @@ Github, Linux, Vue2
 
 ---
 
-### **[ALLsinsa]** 쇼핑몰 무신사 클론코딩
+#### **[ALLsinsa]** 쇼핑몰 무신사 클론코딩
 
 - 작업기간 : 2021.08 (2주) / 팀구성 : 백엔드 3명
 - 주요기술 : Java 17, Spring Boot, Spring Data JPA, MySQL, JUnit5

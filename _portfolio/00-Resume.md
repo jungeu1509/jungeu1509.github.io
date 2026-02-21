@@ -28,7 +28,7 @@ toc_icon: "cog"
 - 롯데온 이벤트 모듈 개발
     - 롯데온의 이벤트 진행을 위한 백오피스 및 정형 이벤트 제작.
     - 이벤트 유지 및 보수
-- [경력기술서 자세히 보기](/portfolio/lotte-ecommerce/)
+- [경력기술서 자세히 보기](/portfolio/02-Lotte-Ecommerce/02-01-Lotte_Ecommerce)
 
 ### 지티시스템(주) (2019.12.16 ~ 2021.08.13)
 
