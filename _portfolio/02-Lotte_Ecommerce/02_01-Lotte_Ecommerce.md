@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-permalink: /portfolio/resume/02-lotte_ecommerce/
+permalink: /portfolio/02-lotte_ecommerce/
 search: false
 toc: true
 toc_sticky: true
