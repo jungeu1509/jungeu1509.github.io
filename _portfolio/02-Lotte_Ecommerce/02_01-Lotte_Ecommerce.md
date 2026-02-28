@@ -1,3 +1,13 @@
+---
+title: "Resume"
+permalink: /portfolio/resume/02-lotte_ecommerce/
+search: false
+toc: true
+toc_sticky: true
+toc_label: "Contents"
+toc_icon: "cog"
+---
+
 # 롯데 이커머스
 
 - 엘스탬프 개발 및 운영

@@ -64,7 +64,7 @@ Github, Linux, Vue2
 - 주요기술 : Java 8, Spring Boot, Mybatis, MySQL, AWS(EC2, S3, Route53), Kafka, Vue2, Redis
 - 담당 작업 : 스탬프 적립 로직 개선작업(백엔드), 리워드 응모 및 당첨로직 내재화(솔루션제거) 및 개선 작업(풀스택), 리워드 중복당첨 방어로직(백엔드), 엘스탬프 BO 기능 추가 및 개선작업(풀스택), 스탬프 데이터 정합성 모니터링 로직 개선(백엔드), 데이터 추출 및 보정작업, 
 
-- [경력기술서 자세히 보기](/portfolio/02-Lotte_Ecommerce/02_01-Lotte_Ecommerce/)
+- [경력기술서 자세히 보기](/portfolio/resume/02-lotte_ecommerce/)
 
 ---
 
