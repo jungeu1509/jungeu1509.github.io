@@ -8,7 +8,7 @@ search: true
 layout: post-single
 permalink: /coding-test/leetcode/add-two-numbers/
 categories: 
-  - CodingTest
+  - Algorithm
 tags:
   - algorithm
   - codingtest
@@ -16,7 +16,6 @@ tags:
   - linkedlist
   - java
 date:  2026-09-19 11:57:06 +0900
-last_modified_at: 2026-09-19 11:57:06 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
