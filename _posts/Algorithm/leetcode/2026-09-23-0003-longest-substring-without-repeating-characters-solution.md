@@ -6,7 +6,6 @@ header:
   teaser:
 search: true
 layout: post-single
-permalink: /coding-test/leetcode/longest-substring-without-repeating-characters/
 categories: 
   - Algorithm
 tags:
@@ -16,6 +15,7 @@ tags:
   - slidingwindow
   - java
 date:  2026-09-23 21:34:34 +0900
+last_modified_at: 2026-09-23 23:46:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"

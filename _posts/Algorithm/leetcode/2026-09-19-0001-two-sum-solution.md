@@ -6,7 +6,6 @@ header:
   teaser:
 search: true
 layout: post-single
-permalink: /coding-test/leetcode/two-sum/
 categories: 
   - Algorithm
 tags:
@@ -16,6 +15,7 @@ tags:
   - hashmap
   - java
 date:  2026-09-19 10:53:01 +0900
+last_modified_at: 2026-09-23 23:46:00 +0900
 toc: true
 toc_sticky: true
 toc_label: "Contents"
