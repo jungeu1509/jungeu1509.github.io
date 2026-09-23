@@ -42,9 +42,13 @@ portfolio-sidebar:
 categories-sidebar:
   - title: categories
     children:
+      - title: "Develop Diary"
+        url: /categories/#develop-diary
+      - title: "Review"
+        url: /categories/#review
       - title: "Backend"
-        url: /categories/#BackEnd
+        url: /categories/#backend
       - title: "Algorithm"
         url: /categories/#algorithm
       - title: "Blog"
-        url: /categories/#Blog
+        url: /categories/#blog
