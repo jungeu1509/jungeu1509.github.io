@@ -24,8 +24,8 @@ portfolio-sidebar:
         url: /portfolio/
       - title: "Resume"
         url: /portfolio/resume/
-      # - title: "- [롯데이커머스] 자세히보기"
-      #   url: /portfolio/lotte-ecommerce/
+      - title: "- [롯데쇼핑 e커머스사업부] 경력기술서"
+        url: /portfolio/lotte-ecommerce/
       # - title: "- [지티시스템] 자세히보기"
       #   url: /portfolio/gtsystem/
       # - title: "- [The Parabole]셀러맞춤 이벤트마켓"
