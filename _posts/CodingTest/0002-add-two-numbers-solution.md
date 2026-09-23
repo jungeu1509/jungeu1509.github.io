@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[LeetCode] Add Two Numbers"
+title:  "[LeetCode] 0002. Add Two Numbers"
 excerpt: "연결 리스트로 표현된 두 수를 더하는 Add Two Numbers 풀이와 올림(carry) 처리 시 흔한 실수 정리. Add Two Numbers solved with linked lists and carry handling in Java"
 header:
   teaser:

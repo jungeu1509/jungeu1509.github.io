@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[LeetCode] Two Sum"
+title:  "[LeetCode] 0001. Two Sum"
 excerpt: "Two Sum 문제를 브루트포스와 HashMap(One-pass)으로 푸는 두 가지 풀이 정리. Two Sum solved with brute force and one-pass HashMap in Java"
 header:
   teaser:
