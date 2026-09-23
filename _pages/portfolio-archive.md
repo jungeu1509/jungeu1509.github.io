@@ -12,7 +12,7 @@ search: false
 # 정은우 Eunwoo Jung (Kenneth Jung)
 
 > **호기심이 많고 배우는 것을 좋아합니다. 도전과 인내를 즐깁니다.**
-> - 웹개발 중 백엔드를 주로 하지만 프론트엔드와 인프라 등의 공부도 꾸준히 하고 있습니다. 개인 혹은 협업프로젝트에서 백엔드와 프론트엔드를 모두 작업하며 필요한 기술을 학습하고 있습니다. 현재 재직중인 '롯데쇼핑 e커머스사업부'에서는 백엔드로 Java Spring Boot를 사용하고 프론트엔드로 vue를 사용하는 풀스택 개발자입니다.
+> - 웹개발 중 백엔드를 주로 하지만 프론트엔드와 인프라 등의 공부도 꾸준히 하고 있습니다. 개인 혹은 협업프로젝트에서 백엔드와 프론트엔드를 모두 작업하며 필요한 기술을 학습하고 있습니다. 현재 재직중인 '롯데쇼핑 e커머스사업부'에서는 백엔드로 Java Spring Boot를 사용하고 프론트엔드로 vue를 사용하는 풀스택 개발자입니다. AI의 다양한 모델을 적극 사용해보고 있으며, 사내 에이전틱 커머스 도입을 위한 작업도 진행했습니다.
 
 > **사람과의 소통을 좋아합니다.**
 > - 저는 다양한 사람들과 접촉을 좋아합니다. 그래서 저는 다양한 모임을 시도하고 도전합니다. 대학시절 봉사활동과 교육활동으로 소통과 설명 능력이 길러졌습니다. 학창시절 심지어 졸업후에도 꾸준한 악기 연주 및 합주 동호회 활동을 통해 다양한 분야의 여러 사람들과의 화합 및 협동에 특화되어 있습니다. 주말마다 직장인 IT 스터디를 통해 관련 직무 사람들과 공부하고 소셜네트워킹을 하고 있습니다.
@@ -27,11 +27,11 @@ Java, C, C++, JavaScript, Python
 
 ### 백엔드
 
-Spring Boot, MyBatis, AWS(EC2, RDS, S3), MySQL, Spring Data JPA, JUnit
+Spring Boot, Spring Batch, MyBatis, Spring Data JPA, AWS(EC2, RDS, S3), MySQL, Kafka, Redis, MSA, JUnit
 
 ### ETC.
 
-Github, Linux, Vue2
+Github, Linux, Vue2, Kibana, Grafana, Datadog, Whatab
 
 ---
 
@@ -61,10 +61,10 @@ Github, Linux, Vue2
 </table>
 
 - 기간 : 2022.12.19 ~ 재직중 / 팀구성 : 파트원 4명(모두 풀스택으로 참여)
-- 주요기술 : Java 8, Spring Boot, Mybatis, MySQL, AWS(EC2, S3, Route53), Kafka, Vue2, Redis
-- 담당 작업 : 스탬프 적립 로직 개선작업(백엔드), 리워드 응모 및 당첨로직 내재화(솔루션제거) 및 개선 작업(풀스택), 리워드 중복당첨 방어로직(백엔드), 엘스탬프 BO 기능 추가 및 개선작업(풀스택), 스탬프 데이터 정합성 모니터링 로직 개선(백엔드), 데이터 추출 및 보정작업, 
+- 주요기술 : Java 8/17, Spring Boot, Spring Batch, Mybatis, MySQL, AWS(EC2, S3, Route53), Kafka, Vue2, Redis, MSA
+- 담당 작업 : 엘스탬프 교환소 시스템 설계부터 운영까지 전 생애주기 단독 담당(DB/코드 아키텍처 설계, FO/BO API, 성능 개선, 운영 고도화), 예산체크·교환 API 최적화로 Timeout 완전 제거 및 응답속도 60% 향상, 숙박세일페스타 등 비정형 이벤트 개발 및 운영, 리워드 응모 및 당첨로직 내재화(솔루션제거), 스탬프 데이터 정합성 모니터링 로직 개선, 기타 엘스탬프 서비스 전반 운영 및 개선
 
-- [경력기술서 자세히 보기](/portfolio/02-lotte_ecommerce/)
+- [경력기술서 자세히 보기](/portfolio/lotte-ecommerce/)
 
 ---
 
